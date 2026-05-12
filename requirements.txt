@@ -1,0 +1,58 @@
+# KnowMat base dependencies (shared by CPU and GPU OCR installs)
+# To install using pip only: pip install -r requirements.txt
+# Then choose one runtime:
+#   CPU: pip install -r requirements-cpu.txt
+#   GPU: pip uninstall -y paddlepaddle paddlepaddle-gpu
+#        pip install -r requirements-gpu.txt -i https://www.paddlepaddle.org.cn/packages/stable/cu129/
+#
+# Consistent with pyproject.toml and environment.yml (pip section)
+
+# Project itself (editable installation)
+-e .
+
+# LangChain & Orchestration
+langchain==0.3.26
+langchain-community==0.3.27
+langchain-openai==0.3.27
+langgraph==0.6.10
+trustcall==0.0.39
+
+# OpenAI / API
+openai==1.93.2
+
+# PaddleOCR-VL (PDF parsing). Install the Paddle runtime separately.
+paddleocr[all]
+pymupdf==1.24.13
+
+# OCR related transitive dependencies
+beautifulsoup4>=4.12
+lxml>=6.0
+cssselect>=1.4
+einops>=0.8
+openpyxl>=3.1
+premailer>=3.10
+
+# Validation and Configuration
+pydantic==2.11.7
+pydantic-settings>=2.0.0
+python-dotenv==1.1.1
+colorlog==6.9.0
+PyYAML>=6.0
+
+# Core utilities (from pyproject.toml dependencies)
+tqdm>=4.66
+click>=8.0
+rich>=13.0
+pandas>=2.0
+pillow>=10.0
+pdfminer.six>=20221105
+markdownify>=0.13
+
+# Composition parsing (optional, used in schema_converter.py)
+pymatgen
+
+# Vector & Embeddings (Optional: for attribute standardization)
+# Install with: pip install "KnowMat[standardization]"
+# torch>=2.8.0
+# torchvision>=0.23.0
+# sentence-transformers>=5.0.0

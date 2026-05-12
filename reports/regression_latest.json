@@ -1,0 +1,547 @@
+{
+  "timestamp": "2026-03-14T23:08:38.710818",
+  "papers_compared": 6,
+  "papers_total": 6,
+  "summary": {
+    "structure": {
+      "materials_per_paper": {
+        "ai": 1.67,
+        "gt": 2.0
+      },
+      "samples_per_paper": {
+        "ai": 2.33,
+        "gt": 3.0
+      },
+      "properties_per_paper": {
+        "ai": 25.7,
+        "gt": 21.0
+      }
+    },
+    "field_accuracy": {
+      "doi_hit_rate": 0.833,
+      "main_phase_ai_filled_rate": 1.0,
+      "main_phase_match_rate": 0.783,
+      "has_precipitates_match_rate": 0.567,
+      "process_category_match_rate": 0.283,
+      "process_unknown_rate": 0.0,
+      "grain_size_ai_filled_rate": 0.833,
+      "grain_size_gt_filled_rate": 0.833
+    },
+    "temperature": {
+      "mean_offset_K": 158.953,
+      "max_offset_K": 975,
+      "tests_with_offset": 21
+    },
+    "composition_quality": {
+      "papers_with_invalid_elements": 0,
+      "papers_with_sum_issues": 5,
+      "papers_with_empty_composition": 1
+    }
+  },
+  "details": [
+    {
+      "paper_id": 1,
+      "ai_file": "data\\output\\1-2024-MSEA-Ti₄₂Hf₂₁Nb₂₁V₁₆-DED\\1-2024-MSEA-Ti₄₂Hf₂₁Nb₂₁V₁₆-DED_extraction.json",
+      "gt_file": "手工标注结果\\1-data.json",
+      "structure": {
+        "materials": {
+          "ai": 1,
+          "gt": 1
+        },
+        "samples": {
+          "ai": 1,
+          "gt": 1
+        },
+        "properties": {
+          "ai": 19,
+          "gt": 8
+        }
+      },
+      "doi": {
+        "ai": "10.1016/j.msea.2024.147225",
+        "gt": "10.1016/j.msea.2024.147225",
+        "match": true
+      },
+      "phases": {
+        "ai_filled_count": 1,
+        "gt_filled_count": 1,
+        "matches": 1,
+        "ai_filled_rate": 1.0,
+        "gt_filled_rate": 1.0,
+        "match_rate": 1.0
+      },
+      "precipitates": {
+        "ai_true_count": 0,
+        "gt_true_count": 0,
+        "matches": 1,
+        "match_rate": 1.0
+      },
+      "process_categories": {
+        "ai_unknown_count": 0,
+        "gt_unknown_count": 0,
+        "matches": 1,
+        "match_rate": 1.0
+      },
+      "grain_sizes": {
+        "ai_filled_count": 1,
+        "gt_filled_count": 1,
+        "ai_filled_rate": 1.0,
+        "gt_filled_rate": 1.0
+      },
+      "temperatures": {
+        "ai_filled_count": 18,
+        "gt_filled_count": 8,
+        "offsets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mean_offset_K": 0.0,
+        "max_offset_K": 0,
+        "tests_with_offset": 0
+      },
+      "compositions": {
+        "invalid_elements_count": 0,
+        "sum_issues_count": 0,
+        "empty_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "paper_id": 2,
+      "ai_file": "data\\output\\2-2025-Acta-Nb₁₅Ta₁₀W₇₅---添加NbC 纳米沉淀\\2-2025-Acta-Nb₁₅Ta₁₀W₇₅---添加NbC 纳米沉淀_extraction.json",
+      "gt_file": "手工标注结果\\2-data.json",
+      "structure": {
+        "materials": {
+          "ai": 2,
+          "gt": 2
+        },
+        "samples": {
+          "ai": 4,
+          "gt": 4
+        },
+        "properties": {
+          "ai": 66,
+          "gt": 28
+        }
+      },
+      "doi": {
+        "ai": "10.1016/j.actamat.2025.121325",
+        "gt": "10.1016/j.actamat.2025.121325",
+        "match": true
+      },
+      "phases": {
+        "ai_filled_count": 4,
+        "gt_filled_count": 4,
+        "matches": 4,
+        "ai_filled_rate": 1.0,
+        "gt_filled_rate": 1.0,
+        "match_rate": 1.0
+      },
+      "precipitates": {
+        "ai_true_count": 2,
+        "gt_true_count": 2,
+        "matches": 0,
+        "match_rate": 0.0
+      },
+      "process_categories": {
+        "ai_unknown_count": 0,
+        "gt_unknown_count": 0,
+        "matches": 2.0,
+        "match_rate": 0.5
+      },
+      "grain_sizes": {
+        "ai_filled_count": 4,
+        "gt_filled_count": 4,
+        "ai_filled_rate": 1.0,
+        "gt_filled_rate": 1.0
+      },
+      "temperatures": {
+        "ai_filled_count": 66,
+        "gt_filled_count": 28,
+        "offsets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          975,
+          975,
+          975,
+          200,
+          0,
+          200,
+          200
+        ],
+        "mean_offset_K": 140.17857142857142,
+        "max_offset_K": 975,
+        "tests_with_offset": 8
+      },
+      "compositions": {
+        "invalid_elements_count": 0,
+        "sum_issues_count": 0,
+        "empty_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "paper_id": 3,
+      "ai_file": "data\\output\\3-2024-JMST- Co42Cr20Ni30Ti4Al4\\3-2024-JMST- Co42Cr20Ni30Ti4Al4_extraction.json",
+      "gt_file": "手工标注结果\\3-data.json",
+      "structure": {
+        "materials": {
+          "ai": 1,
+          "gt": 1
+        },
+        "samples": {
+          "ai": 2,
+          "gt": 2
+        },
+        "properties": {
+          "ai": 18,
+          "gt": 18
+        }
+      },
+      "doi": {
+        "ai": "10.1016/j.jmst.2024.02.077",
+        "gt": "10.1016/j.jmst.2024.02.077",
+        "match": true
+      },
+      "phases": {
+        "ai_filled_count": 2,
+        "gt_filled_count": 2,
+        "matches": 2,
+        "ai_filled_rate": 1.0,
+        "gt_filled_rate": 1.0,
+        "match_rate": 1.0
+      },
+      "precipitates": {
+        "ai_true_count": 1,
+        "gt_true_count": 1,
+        "matches": 2,
+        "match_rate": 1.0
+      },
+      "process_categories": {
+        "ai_unknown_count": 0,
+        "gt_unknown_count": 0,
+        "matches": 0,
+        "match_rate": 0.0
+      },
+      "grain_sizes": {
+        "ai_filled_count": 2,
+        "gt_filled_count": 2,
+        "ai_filled_rate": 1.0,
+        "gt_filled_rate": 1.0
+      },
+      "temperatures": {
+        "ai_filled_count": 18,
+        "gt_filled_count": 18,
+        "offsets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mean_offset_K": 0.0,
+        "max_offset_K": 0,
+        "tests_with_offset": 0
+      },
+      "compositions": {
+        "invalid_elements_count": 0,
+        "sum_issues_count": 0,
+        "empty_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "paper_id": 4,
+      "ai_file": "data\\output\\4-2025-IJP-Ni₆₁.₃Cr₂₅.₃W₄.₄Mo₁.₄Fe₁.₇Co₁.₄Al₁.₁Mn₀.₄Si₀.₇C₂.₅La₀.₀₁₃\\4-2025-IJP-Ni₆₁.₃Cr₂₅.₃W₄.₄Mo₁.₄Fe₁.₇Co₁.₄Al₁.₁Mn₀.₄Si₀.₇C₂.₅La₀.₀₁₃_extraction.json",
+      "gt_file": "手工标注结果\\4-data.json",
+      "structure": {
+        "materials": {
+          "ai": 1,
+          "gt": 2
+        },
+        "samples": {
+          "ai": 2,
+          "gt": 5
+        },
+        "properties": {
+          "ai": 16,
+          "gt": 24
+        }
+      },
+      "doi": {
+        "ai": "10.1016/j.ijplas.2025.104409",
+        "gt": "10.1016/j.msea.2024.147225",
+        "match": false
+      },
+      "phases": {
+        "ai_filled_count": 2,
+        "gt_filled_count": 5,
+        "matches": 1,
+        "ai_filled_rate": 1.0,
+        "gt_filled_rate": 1.0,
+        "match_rate": 0.2
+      },
+      "precipitates": {
+        "ai_true_count": 0,
+        "gt_true_count": 0,
+        "matches": 2,
+        "match_rate": 0.4
+      },
+      "process_categories": {
+        "ai_unknown_count": 0,
+        "gt_unknown_count": 0,
+        "matches": 1,
+        "match_rate": 0.2
+      },
+      "grain_sizes": {
+        "ai_filled_count": 2,
+        "gt_filled_count": 5,
+        "ai_filled_rate": 1.0,
+        "gt_filled_rate": 1.0
+      },
+      "temperatures": {
+        "ai_filled_count": 16,
+        "gt_filled_count": 24,
+        "offsets": [
+          0,
+          0,
+          375,
+          375,
+          475,
+          475,
+          575,
+          575,
+          0,
+          0,
+          875,
+          875,
+          0,
+          0,
+          875,
+          875
+        ],
+        "mean_offset_K": 396.875,
+        "max_offset_K": 875,
+        "tests_with_offset": 10
+      },
+      "compositions": {
+        "invalid_elements_count": 0,
+        "sum_issues_count": 1,
+        "empty_count": 0,
+        "issues": [
+          "Ni68.94Cr21.49W13.13Mo2.22Fe1.57Co1.30Al0.46Mn0.34Si0.30La0.029C0.48: Sum=110.3% (expected ~100%)"
+        ]
+      }
+    },
+    {
+      "paper_id": 5,
+      "ai_file": "data\\output\\5-2024-IJP-在 FeCoCrNiMox\\5-2024-IJP-在 FeCoCrNiMox_extraction.json",
+      "gt_file": "手工标注结果\\5-data.json",
+      "structure": {
+        "materials": {
+          "ai": 4,
+          "gt": 4
+        },
+        "samples": {
+          "ai": 4,
+          "gt": 4
+        },
+        "properties": {
+          "ai": 32,
+          "gt": 32
+        }
+      },
+      "doi": {
+        "ai": "10.1016/j.ijplas.2024.104142",
+        "gt": "10.1016/j.ijplas.2024.104142",
+        "match": true
+      },
+      "phases": {
+        "ai_filled_count": 4,
+        "gt_filled_count": 4,
+        "matches": 4,
+        "ai_filled_rate": 1.0,
+        "gt_filled_rate": 1.0,
+        "match_rate": 1.0
+      },
+      "precipitates": {
+        "ai_true_count": 2,
+        "gt_true_count": 2,
+        "matches": 4,
+        "match_rate": 1.0
+      },
+      "process_categories": {
+        "ai_unknown_count": 0,
+        "gt_unknown_count": 0,
+        "matches": 0,
+        "match_rate": 0.0
+      },
+      "grain_sizes": {
+        "ai_filled_count": 4,
+        "gt_filled_count": 4,
+        "ai_filled_rate": 1.0,
+        "gt_filled_rate": 1.0
+      },
+      "temperatures": {
+        "ai_filled_count": 32,
+        "gt_filled_count": 32,
+        "offsets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mean_offset_K": 0.0,
+        "max_offset_K": 0,
+        "tests_with_offset": 0
+      },
+      "compositions": {
+        "invalid_elements_count": 0,
+        "sum_issues_count": 3,
+        "empty_count": 1,
+        "issues": [
+          "FeCoCrNi: Composition_JSON is empty",
+          "FeCoCrNiMo0.1: Sum=0.1% (expected ~100%)",
+          "FeCoCrNiMo0.3: Sum=0.3% (expected ~100%)",
+          "FeCoCrNiMo0.5: Sum=0.5% (expected ~100%)"
+        ]
+      }
+    },
+    {
+      "paper_id": 6,
+      "ai_file": "data\\output\\6-2024-MSEA- FeCoCrNiMo0.5\\6-2024-MSEA- FeCoCrNiMo0.5_extraction.json",
+      "gt_file": "手工标注结果\\6-data.json",
+      "structure": {
+        "materials": {
+          "ai": 1,
+          "gt": 2
+        },
+        "samples": {
+          "ai": 1,
+          "gt": 2
+        },
+        "properties": {
+          "ai": 3,
+          "gt": 16
+        }
+      },
+      "doi": {
+        "ai": "10.1016/j.msea.2024.146413",
+        "gt": "10.1016/j.msea.2024.146413",
+        "match": true
+      },
+      "phases": {
+        "ai_filled_count": 1,
+        "gt_filled_count": 2,
+        "matches": 1,
+        "ai_filled_rate": 1.0,
+        "gt_filled_rate": 1.0,
+        "match_rate": 0.5
+      },
+      "precipitates": {
+        "ai_true_count": 1,
+        "gt_true_count": 1,
+        "matches": 0,
+        "match_rate": 0.0
+      },
+      "process_categories": {
+        "ai_unknown_count": 0,
+        "gt_unknown_count": 0,
+        "matches": 0,
+        "match_rate": 0.0
+      },
+      "grain_sizes": {
+        "ai_filled_count": 0,
+        "gt_filled_count": 0,
+        "ai_filled_rate": 0.0,
+        "gt_filled_rate": 0.0
+      },
+      "temperatures": {
+        "ai_filled_count": 3,
+        "gt_filled_count": 16,
+        "offsets": [
+          575,
+          575,
+          100
+        ],
+        "mean_offset_K": 416.6666666666667,
+        "max_offset_K": 575,
+        "tests_with_offset": 3
+      },
+      "compositions": {
+        "invalid_elements_count": 0,
+        "sum_issues_count": 1,
+        "empty_count": 0,
+        "issues": [
+          "FeCoCrNiMo0.5: Sum=0.5% (expected ~100%)"
+        ]
+      }
+    }
+  ]
+}

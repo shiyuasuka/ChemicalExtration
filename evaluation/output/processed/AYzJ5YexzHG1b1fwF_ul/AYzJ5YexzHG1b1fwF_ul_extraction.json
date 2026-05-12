@@ -1,0 +1,712 @@
+{
+  "Paper_Metadata": {
+    "Paper_Title": null,
+    "DOI": "10.1016/j.powtec.2020.04.010"
+  },
+  "items": [
+    {
+      "Composition_Info": {
+        "Role": "Target",
+        "Alloy_Name_Raw": "Ti6Al4V",
+        "Nominal_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Ti": 88.93,
+            "Al": 6.4,
+            "V": 4.1,
+            "Fe": 0.18,
+            "other": 0.39
+          }
+        },
+        "Measured_Composition": {
+          "Composition_Type": null,
+          "Elements_Normalized": null,
+          "Measurement_Method": null
+        }
+      },
+      "Process_Info": {
+        "Process_Category": "AM_SLM",
+        "Process_Text": {
+          "original": "Selective laser melting (SLM) with single mode fiber laser (nLIGHT alta, 1 kW max power); P=200-400 W, v=500-1900 mm/s, h=50-100 μm, z=50 μm, E=21-320 J/mm³, focal position f=0 mm, Ar atmosphere, baseplate preheating 12 mm Ti6Al4V",
+          "simplified": "SLM of Ti6Al4V powder on Ti6Al4V substrate"
+        },
+        "Key_Params": {
+          "Laser_Power_W": 300,
+          "Scanning_Speed_mm_s": 700,
+          "Hatch_Spacing_um": 50,
+          "Layer_Thickness_um": 50,
+          "Volumetric_Energy_Density_J_mm3": 170,
+          "Focal_Position_mm": 0,
+          "Build_Plate_Thickness_mm": 12,
+          "Beam_Diameter_um": 78,
+          "Protective_Atmosphere": "Argon"
+        }
+      },
+      "Microstructure_Info": {
+        "Microstructure_Text": {
+          "original": "Optical microscopy analysis revealed fine acicular α' grains. The α' martensitic laths are organised within prior β grain boundaries with different inclinations, mainly at ~±45° with respect to the build direction. Columnar grains are the result of epitaxial growth of the previous layer upon successive laser scans. Some lack of fusion defects could also be identified.",
+          "simplified": "Fine acicular α' martensitic laths within prior β grain boundaries; columnar grains from epitaxial growth; ~±45° inclination to build direction"
+        },
+        "Main_Phase": "alpha-prime martensite",
+        "Porosity_pct": null,
+        "Relative_Density_pct": null,
+        "Grain_Size_avg_um": null,
+        "Precipitate_Size_avg_nm": null,
+        "Precipitate_Volume_Fraction_pct": null,
+        "Advanced_Quantitative_Features": {}
+      },
+      "Properties_Info": [
+        {
+          "Property_Name": "Hardness_HV",
+          "Test_Condition": "Vickers microhardness; 500 gf load; 15 s dwell time",
+          "Value_Numeric": 402.0,
+          "Value_Range": null,
+          "Value_StdDev": 7.0,
+          "Unit": "HV",
+          "Test_Temperature_K": null
+        },
+        {
+          "Property_Name": "Relative_Density",
+          "Test_Condition": "Apparent density via image processing",
+          "Value_Numeric": 100.0,
+          "Value_Range": null,
+          "Value_StdDev": null,
+          "Unit": "%",
+          "Test_Temperature_K": null
+        }
+      ]
+    },
+    {
+      "Composition_Info": {
+        "Role": "Target",
+        "Alloy_Name_Raw": "IN718 (Inconel 718)",
+        "Nominal_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Ti": 0.97,
+            "Al": 0.48,
+            "Ni": 52.99,
+            "Cr": 19.04,
+            "Fe": 18.2,
+            "Nb": 4.9,
+            "Mo": 2.73,
+            "other": 0.69
+          }
+        },
+        "Measured_Composition": {
+          "Composition_Type": null,
+          "Elements_Normalized": null,
+          "Measurement_Method": null
+        }
+      },
+      "Process_Info": {
+        "Process_Category": "AM_SLM",
+        "Process_Text": {
+          "original": "Selective laser melting (SLM) with single mode fiber laser (nLIGHT alta, 1 kW max power); P=250-450 W, v=100-1000 mm/s, h=50-100 μm, z=50 μm, E=63-900 J/mm³, focal position f=0 mm, Ar atmosphere, 3 mm thick IN718 baseplate",
+          "simplified": "SLM of IN718 powder on IN718 substrate"
+        },
+        "Key_Params": {
+          "Laser_Power_W": 350,
+          "Scanning_Speed_mm_s": 500,
+          "Hatch_Spacing_um": 50,
+          "Layer_Thickness_um": 50,
+          "Volumetric_Energy_Density_J_mm3": 300,
+          "Focal_Position_mm": 0,
+          "Build_Plate_Thickness_mm": 3,
+          "Beam_Diameter_um": 78,
+          "Protective_Atmosphere": "Argon"
+        }
+      },
+      "Microstructure_Info": {
+        "Microstructure_Text": {
+          "original": "Typical layer by layer SLM manufacturing characteristics and melt pool morphology clearly visible. Columnar grains across several layers with very fine dendritic structure. Strong segregation in interdendritic zones enriched in Nb and Mo. BSE image shows bright phases achieving Nb content up to 23.7 wt% and Mo up to 2.5% associated with Ni₃Nb δ-phase formation.",
+          "simplified": "Columnar grains across layers; fine dendritic structure; Nb and Mo segregation in interdendritic zones; δ-phase (Ni₃Nb) precipitates"
+        },
+        "Main_Phase": "gamma matrix with delta-phase",
+        "Porosity_pct": null,
+        "Relative_Density_pct": null,
+        "Grain_Size_avg_um": null,
+        "Precipitate_Size_avg_nm": null,
+        "Precipitate_Volume_Fraction_pct": null,
+        "Advanced_Quantitative_Features": {}
+      },
+      "Properties_Info": [
+        {
+          "Property_Name": "Hardness_HV",
+          "Test_Condition": "Vickers microhardness; 500 gf load; 15 s dwell time",
+          "Value_Numeric": 255.0,
+          "Value_Range": null,
+          "Value_StdDev": 13.0,
+          "Unit": "HV",
+          "Test_Temperature_K": null
+        },
+        {
+          "Property_Name": "Relative_Density",
+          "Test_Condition": "Apparent density via image processing",
+          "Value_Numeric": 100.0,
+          "Value_Range": null,
+          "Value_StdDev": null,
+          "Unit": "%",
+          "Test_Temperature_K": null
+        }
+      ]
+    },
+    {
+      "Composition_Info": {
+        "Role": "Target",
+        "Alloy_Name_Raw": "Ti6Al4V/IN718 blend",
+        "Nominal_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Ti": 83.1,
+            "Al": 4.2,
+            "V": 3.25,
+            "Ni": 5.0,
+            "Cr": 1.96,
+            "Fe": 1.75,
+            "Nb": 0.47,
+            "Mo": 0.26,
+            "other": 0.01
+          }
+        },
+        "Measured_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Al": 5.18,
+            "V": 3.83,
+            "Cr": 1.54,
+            "Fe": 1.78,
+            "Ni": 5.08,
+            "Nb": 0.66,
+            "Mo": 0.3,
+            "Ti": 81.63
+          },
+          "Measurement_Method": "EDX"
+        }
+      },
+      "Process_Info": {
+        "Process_Category": "AM_SLM",
+        "Process_Text": {
+          "original": "Selective laser melting of pre-mixed Ti6Al4V/IN718 powder blend (10 wt% IN718); P=300-450 W, v=350-850 mm/s, h=50 μm, z=50 μm, E=141-400 J/mm³, Ar atmosphere; processed with same energy density as Ti6Al4V",
+          "simplified": "SLM of pre-mixed 10 wt% IN718 blend in Ti6Al4V matrix"
+        },
+        "Key_Params": {
+          "Laser_Power_W": 300,
+          "Scanning_Speed_mm_s": 700,
+          "Hatch_Spacing_um": 50,
+          "Layer_Thickness_um": 50,
+          "Volumetric_Energy_Density_J_mm3": 165,
+          "Focal_Position_mm": 0,
+          "Protective_Atmosphere": "Argon"
+        }
+      },
+      "Microstructure_Info": {
+        "Microstructure_Text": {
+          "original": "Non-uniform microstructure across specimen surface. Deposited layers clearly distinguishable; no alpha martensitic lathes observed. Alloying elements (Ni, Cr, Fe) act as beta-stabilizers for titanium, promoting growth and retention of beta phase. Dendritic microstructure not clearly observable within layers, indicating low microsegregation. Macrosegregated areas located at layer interfaces with Ni up to 15 wt% and Cr up to 3.6 wt%.",
+          "simplified": "Non-uniform microstructure; no α' martensite; beta phase stabilized by Ni, Cr, Fe; low microsegregation within layers; macrosegregation at layer interfaces"
+        },
+        "Main_Phase": "beta phase stabilized",
+        "Porosity_pct": null,
+        "Relative_Density_pct": null,
+        "Grain_Size_avg_um": null,
+        "Precipitate_Size_avg_nm": null,
+        "Precipitate_Volume_Fraction_pct": null,
+        "Advanced_Quantitative_Features": {}
+      },
+      "Properties_Info": [
+        {
+          "Property_Name": "Hardness_HV",
+          "Test_Condition": "Vickers microhardness; 500 gf load; 15 s dwell time",
+          "Value_Numeric": 381.0,
+          "Value_Range": null,
+          "Value_StdDev": 21.0,
+          "Unit": "HV",
+          "Test_Temperature_K": null
+        }
+      ]
+    },
+    {
+      "Composition_Info": {
+        "Role": "Target",
+        "Alloy_Name_Raw": "Ti6Al4V/IN718 blend",
+        "Nominal_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Ti": 74.36,
+            "Al": 3.85,
+            "V": 2.91,
+            "Ni": 10.0,
+            "Cr": 3.92,
+            "Fe": 3.5,
+            "Nb": 0.95,
+            "Mo": 0.53
+          }
+        },
+        "Measured_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Al": 4.37,
+            "V": 3.47,
+            "Cr": 3.44,
+            "Fe": 3.55,
+            "Ni": 10.21,
+            "Nb": 1.7,
+            "Mo": 0.86,
+            "Ti": 72.4
+          },
+          "Measurement_Method": "EDX"
+        }
+      },
+      "Process_Info": {
+        "Process_Category": "AM_SLM",
+        "Process_Text": {
+          "original": "Selective laser melting of pre-mixed Ti6Al4V/IN718 powder blend (20 wt% IN718); P=300-450 W, v=350-850 mm/s, h=50 μm, z=50 μm, E=141-400 J/mm³, Ar atmosphere; crack-free with E > 266 J/mm³",
+          "simplified": "SLM of pre-mixed 20 wt% IN718 blend in Ti6Al4V matrix; requires E > 266 J/mm³ for crack-free processing"
+        },
+        "Key_Params": {
+          "Laser_Power_W": 300,
+          "Scanning_Speed_mm_s": 450,
+          "Hatch_Spacing_um": 50,
+          "Layer_Thickness_um": 50,
+          "Volumetric_Energy_Density_J_mm3": 267,
+          "Focal_Position_mm": 0,
+          "Protective_Atmosphere": "Argon"
+        }
+      },
+      "Microstructure_Info": {
+        "Microstructure_Text": {
+          "original": "Complex yet uniform microstructure with clear evidence of second phase nucleated in interdendritic zones. β phase formation expected with increased IN718 content. SEM/EDX analysis shows second phase rich in Ni (up to 17 wt%). Solidification range ΔT = 288°C (highest among blends).",
+          "simplified": "Complex uniform microstructure; second phase in interdendritic zones rich in Ni (up to 17 wt%); β phase stabilization; highest solidification range"
+        },
+        "Main_Phase": "beta with second phase",
+        "Porosity_pct": null,
+        "Relative_Density_pct": null,
+        "Grain_Size_avg_um": null,
+        "Precipitate_Size_avg_nm": null,
+        "Precipitate_Volume_Fraction_pct": null,
+        "Advanced_Quantitative_Features": {}
+      },
+      "Properties_Info": [
+        {
+          "Property_Name": "Hardness_HV",
+          "Test_Condition": "Vickers microhardness; 500 gf load; 15 s dwell time",
+          "Value_Numeric": 477.0,
+          "Value_Range": null,
+          "Value_StdDev": 16.0,
+          "Unit": "HV",
+          "Test_Temperature_K": null
+        },
+        {
+          "Property_Name": "Relative_Density",
+          "Test_Condition": "Apparent density via image processing",
+          "Value_Numeric": 100.0,
+          "Value_Range": null,
+          "Value_StdDev": null,
+          "Unit": "%",
+          "Test_Temperature_K": null
+        }
+      ]
+    },
+    {
+      "Composition_Info": {
+        "Role": "Target",
+        "Alloy_Name_Raw": "Ti6Al4V/IN718 blend",
+        "Nominal_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Ti": 64.74,
+            "Al": 3.45,
+            "V": 2.53,
+            "Ni": 15.53,
+            "Cr": 6.07,
+            "Fe": 5.42,
+            "Nb": 1.47,
+            "Mo": 0.82
+          }
+        },
+        "Measured_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Al": 3.81,
+            "V": 2.14,
+            "Cr": 6.44,
+            "Fe": 6.96,
+            "Ni": 19.05,
+            "Nb": 4.11,
+            "Mo": 0.63,
+            "Ti": 56.86
+          },
+          "Measurement_Method": "EDX"
+        }
+      },
+      "Process_Info": {
+        "Process_Category": "AM_SLM",
+        "Process_Text": {
+          "original": "Selective laser melting of pre-mixed Ti6Al4V/IN718 powder blend (30 wt% IN718); P=450 W, v=350 mm/s, h=50 μm, z=50 μm, E=400 J/mm³, Ar atmosphere; severe macrocracking regardless of parameters",
+          "simplified": "SLM of pre-mixed 30 wt% IN718 blend; severe cracking due to Ti2Ni intermetallic formation"
+        },
+        "Key_Params": {
+          "Laser_Power_W": 450,
+          "Scanning_Speed_mm_s": 350,
+          "Hatch_Spacing_um": 50,
+          "Layer_Thickness_um": 50,
+          "Volumetric_Energy_Density_J_mm3": 400,
+          "Focal_Position_mm": 0,
+          "Protective_Atmosphere": "Argon"
+        }
+      },
+      "Microstructure_Info": {
+        "Microstructure_Text": {
+          "original": "Nucleation of intermetallic Ti2Ni phase (bright phase in BSE). α-Ti + Ti2Ni eutectoid transformation starts at grain boundaries of β phase. Dendritic solidification microstructure no more observable due to massive precipitation of intermetallic phase. Severe macrocracks visible, reaching side walls.",
+          "simplified": "Ti2Ni intermetallic phase nucleation; α-Ti + Ti2Ni eutectoid transformation; dendritic structure lost; severe macrocracking"
+        },
+        "Main_Phase": "alpha-Ti + Ti2Ni",
+        "Porosity_pct": null,
+        "Relative_Density_pct": null,
+        "Grain_Size_avg_um": null,
+        "Precipitate_Size_avg_nm": null,
+        "Precipitate_Volume_Fraction_pct": null,
+        "Advanced_Quantitative_Features": {}
+      },
+      "Properties_Info": [
+        {
+          "Property_Name": "Hardness_HV",
+          "Test_Condition": "Vickers microhardness; 500 gf load; 15 s dwell time",
+          "Value_Numeric": 684.0,
+          "Value_Range": null,
+          "Value_StdDev": 48.0,
+          "Unit": "HV",
+          "Test_Temperature_K": null
+        }
+      ]
+    },
+    {
+      "Composition_Info": {
+        "Role": "Target",
+        "Alloy_Name_Raw": "Ti6Al4V/IN718 blend",
+        "Nominal_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Ti": 56.87,
+            "Al": 3.13,
+            "V": 2.22,
+            "Ni": 20.0,
+            "Cr": 9.8,
+            "Fe": 7.0,
+            "Nb": 1.89,
+            "Mo": 1.05
+          }
+        },
+        "Measured_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Al": 3.66,
+            "V": 54.64,
+            "Cr": 2.33,
+            "Fe": 7.08,
+            "Ni": 20.69,
+            "Nb": 2.8,
+            "Mo": 1.41,
+            "Ti": 7.39
+          },
+          "Measurement_Method": "EDX"
+        }
+      },
+      "Process_Info": {
+        "Process_Category": "AM_SLM",
+        "Process_Text": {
+          "original": "Selective laser melting of pre-mixed Ti6Al4V/IN718 powder blend (40 wt% IN718); P=450 W, v=350 mm/s, h=50 μm, z=50 μm, E=400 J/mm³, Ar atmosphere; severe macrocracking regardless of parameters",
+          "simplified": "SLM of pre-mixed 40 wt% IN718 blend; severe cracking due to Ti2Ni intermetallic formation"
+        },
+        "Key_Params": {
+          "Laser_Power_W": 450,
+          "Scanning_Speed_mm_s": 350,
+          "Hatch_Spacing_um": 50,
+          "Layer_Thickness_um": 50,
+          "Volumetric_Energy_Density_J_mm3": 400,
+          "Focal_Position_mm": 0,
+          "Protective_Atmosphere": "Argon"
+        }
+      },
+      "Microstructure_Info": {
+        "Microstructure_Text": {
+          "original": "Nucleation of intermetallic Ti2Ni phase. α-Ti + Ti2Ni eutectoid transformation starts at grain boundaries of β phase. Massive precipitation of intermetallic phase obscures dendritic solidification microstructure. Severe macrocracks visible, reaching side walls. Higher IN718 content than 30 wt% still results in cracking.",
+          "simplified": "Ti2Ni intermetallic phase; α-Ti + Ti2Ni eutectoid transformation; dendritic structure lost; severe macrocracking"
+        },
+        "Main_Phase": "alpha-Ti + Ti2Ni",
+        "Porosity_pct": null,
+        "Relative_Density_pct": null,
+        "Grain_Size_avg_um": null,
+        "Precipitate_Size_avg_nm": null,
+        "Precipitate_Volume_Fraction_pct": null,
+        "Advanced_Quantitative_Features": {}
+      },
+      "Properties_Info": [
+        {
+          "Property_Name": "Hardness_HV",
+          "Test_Condition": "Vickers microhardness; 500 gf load; 15 s dwell time",
+          "Value_Numeric": 582.0,
+          "Value_Range": null,
+          "Value_StdDev": 27.0,
+          "Unit": "HV",
+          "Test_Temperature_K": null
+        }
+      ]
+    },
+    {
+      "Composition_Info": {
+        "Role": "Target",
+        "Alloy_Name_Raw": "Graded Ti6Al4V/IN718 - Ti6Al4V base layer (0 wt% IN718)",
+        "Nominal_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Ti": 88.93,
+            "Al": 6.4,
+            "V": 4.1,
+            "Fe": 0.18,
+            "other": 0.39
+          }
+        },
+        "Measured_Composition": {
+          "Composition_Type": null,
+          "Elements_Normalized": null,
+          "Measurement_Method": null
+        }
+      },
+      "Process_Info": {
+        "Process_Category": "AM_LPBF + Graded_Composition",
+        "Process_Text": {
+          "original": "The first material deposited was Ti6Al4V, for 42 layers. Laser power 300 W, scan speed 700 mm/s, hatch distance 50 um, layer thickness 50 um, energy density 170 J/mm3. Ar atmosphere.",
+          "simplified": "The first material deposited was Ti6Al4V, for 42 layers. -> Laser power 300 W, scan speed 700 mm/s, hatch distance 50 um, layer thickness 50 um, energy density 170 J/mm3. -> Ar atmosphere."
+        },
+        "Key_Params": {
+          "Number_of_Layers": 42,
+          "Laser_Power_W": 300,
+          "Scanning_Speed_mm_s": 700,
+          "Hatch_Spacing_um": 50,
+          "Layer_Thickness_um": 50,
+          "Volumetric_Energy_Density_J_mm3": 170.0,
+          "Protective_Atmosphere": "Argon"
+        }
+      },
+      "Microstructure_Info": {
+        "Microstructure_Text": {
+          "original": "Complex microstructure with intermetallic phases; highest hardness in graded specimen; no delamination; fully dense and crack-free internal section; dilution effect creates smoother transition than pre-mixed blends; remelting of previously solidified layers creates functionally graded material",
+          "simplified": "Defect-free dense microstructure; intermetallic phases; highest hardness zone; no cracks or delamination; functionally graded composition"
+        },
+        "Main_Phase": "beta with intermetallics",
+        "Porosity_pct": null,
+        "Relative_Density_pct": null,
+        "Grain_Size_avg_um": null,
+        "Precipitate_Size_avg_nm": null,
+        "Precipitate_Volume_Fraction_pct": null,
+        "Advanced_Quantitative_Features": {}
+      },
+      "Properties_Info": []
+    },
+    {
+      "Composition_Info": {
+        "Role": "Target",
+        "Alloy_Name_Raw": "Graded Ti6Al4V/IN718 - 5 wt% IN718 step",
+        "Nominal_Composition": {
+          "Composition_Type": null,
+          "Elements_Normalized": null
+        },
+        "Measured_Composition": {
+          "Composition_Type": null,
+          "Elements_Normalized": null,
+          "Measurement_Method": null
+        }
+      },
+      "Process_Info": {
+        "Process_Category": "AM_LPBF + Graded_Composition",
+        "Process_Text": {
+          "original": "IN718 quantity was increased to 5 wt% for 12 layers. Laser power 300 W, scan speed 700 mm/s, hatch distance 50 um, layer thickness 50 um, energy density 170 J/mm3.",
+          "simplified": "IN718 quantity was increased to 5 wt% for 12 layers. -> Laser power 300 W, scan speed 700 mm/s, hatch distance 50 um, layer thickness 50 um, energy density 170 J/mm3."
+        },
+        "Key_Params": {
+          "Number_of_Layers": 12,
+          "Laser_Power_W": 300,
+          "Scanning_Speed_mm_s": 700,
+          "Hatch_Spacing_um": 50,
+          "Layer_Thickness_um": 50,
+          "Volumetric_Energy_Density_J_mm3": 170.0,
+          "Protective_Atmosphere": "Argon"
+        }
+      },
+      "Microstructure_Info": {
+        "Microstructure_Text": {
+          "original": "Complex microstructure with intermetallic phases; highest hardness in graded specimen; no delamination; fully dense and crack-free internal section; dilution effect creates smoother transition than pre-mixed blends; remelting of previously solidified layers creates functionally graded material",
+          "simplified": "Defect-free dense microstructure; intermetallic phases; highest hardness zone; no cracks or delamination; functionally graded composition"
+        },
+        "Main_Phase": null,
+        "Porosity_pct": null,
+        "Relative_Density_pct": null,
+        "Grain_Size_avg_um": null,
+        "Precipitate_Size_avg_nm": null,
+        "Precipitate_Volume_Fraction_pct": null,
+        "Advanced_Quantitative_Features": {}
+      },
+      "Properties_Info": []
+    },
+    {
+      "Composition_Info": {
+        "Role": "Target",
+        "Alloy_Name_Raw": "Graded Ti6Al4V/IN718 - 10 wt% IN718 step",
+        "Nominal_Composition": {
+          "Composition_Type": null,
+          "Elements_Normalized": null
+        },
+        "Measured_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Al": 4.89,
+            "Ti": 75.79,
+            "V": 3.5,
+            "Cr": 3.15,
+            "Fe": 3.21,
+            "Ni": 6.32,
+            "Nb": 3.23
+          },
+          "Measurement_Method": "SEM/EDX (Region A at height 2.80 mm)"
+        }
+      },
+      "Process_Info": {
+        "Process_Category": "AM_LPBF + Graded_Composition",
+        "Process_Text": {
+          "original": "IN718 quantity was increased to 10 wt% for 12 layers. Laser power 300 W, scan speed 700 mm/s, hatch distance 50 um, layer thickness 50 um, energy density 170 J/mm3.",
+          "simplified": "IN718 quantity was increased to 10 wt% for 12 layers. -> Laser power 300 W, scan speed 700 mm/s, hatch distance 50 um, layer thickness 50 um, energy density 170 J/mm3."
+        },
+        "Key_Params": {
+          "Number_of_Layers": 12,
+          "Laser_Power_W": 300,
+          "Scanning_Speed_mm_s": 700,
+          "Hatch_Spacing_um": 50,
+          "Layer_Thickness_um": 50,
+          "Volumetric_Energy_Density_J_mm3": 170.0,
+          "Protective_Atmosphere": "Argon"
+        }
+      },
+      "Microstructure_Info": {
+        "Microstructure_Text": {
+          "original": "Complex microstructure with intermetallic phases; highest hardness in graded specimen; no delamination; fully dense and crack-free internal section; dilution effect creates smoother transition than pre-mixed blends; remelting of previously solidified layers creates functionally graded material",
+          "simplified": "Defect-free dense microstructure; intermetallic phases; highest hardness zone; no cracks or delamination; functionally graded composition"
+        },
+        "Main_Phase": null,
+        "Porosity_pct": null,
+        "Relative_Density_pct": null,
+        "Grain_Size_avg_um": null,
+        "Precipitate_Size_avg_nm": null,
+        "Precipitate_Volume_Fraction_pct": null,
+        "Advanced_Quantitative_Features": {}
+      },
+      "Properties_Info": []
+    },
+    {
+      "Composition_Info": {
+        "Role": "Target",
+        "Alloy_Name_Raw": "Graded Ti6Al4V/IN718 - 15 wt% IN718 step",
+        "Nominal_Composition": {
+          "Composition_Type": null,
+          "Elements_Normalized": null
+        },
+        "Measured_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Al": 4.59,
+            "Ti": 77.83,
+            "V": 3.48,
+            "Cr": 2.49,
+            "Fe": 2.49,
+            "Ni": 6.76,
+            "Nb": 2.8
+          },
+          "Measurement_Method": "SEM/EDX (Region A at height 3.62 mm)"
+        }
+      },
+      "Process_Info": {
+        "Process_Category": "AM_LPBF + Graded_Composition",
+        "Process_Text": {
+          "original": "IN718 quantity was increased to 15 wt% for 12 layers. Laser power 300 W, scan speed 550 mm/s, hatch distance 50 um, layer thickness 50 um, energy density 218 J/mm3.",
+          "simplified": "IN718 quantity was increased to 15 wt% for 12 layers. -> Laser power 300 W, scan speed 550 mm/s, hatch distance 50 um, layer thickness 50 um, energy density 218 J/mm3."
+        },
+        "Key_Params": {
+          "Number_of_Layers": 12,
+          "Laser_Power_W": 300,
+          "Scanning_Speed_mm_s": 550,
+          "Hatch_Spacing_um": 50,
+          "Layer_Thickness_um": 50,
+          "Volumetric_Energy_Density_J_mm3": 218.0,
+          "Protective_Atmosphere": "Argon"
+        }
+      },
+      "Microstructure_Info": {
+        "Microstructure_Text": {
+          "original": "Complex microstructure with intermetallic phases; highest hardness in graded specimen; no delamination; fully dense and crack-free internal section; dilution effect creates smoother transition than pre-mixed blends; remelting of previously solidified layers creates functionally graded material",
+          "simplified": "Defect-free dense microstructure; intermetallic phases; highest hardness zone; no cracks or delamination; functionally graded composition"
+        },
+        "Main_Phase": null,
+        "Porosity_pct": null,
+        "Relative_Density_pct": null,
+        "Grain_Size_avg_um": null,
+        "Precipitate_Size_avg_nm": null,
+        "Precipitate_Volume_Fraction_pct": null,
+        "Advanced_Quantitative_Features": {}
+      },
+      "Properties_Info": []
+    },
+    {
+      "Composition_Info": {
+        "Role": "Target",
+        "Alloy_Name_Raw": "Graded Ti6Al4V/IN718 - 20 wt% IN718 step",
+        "Nominal_Composition": {
+          "Composition_Type": null,
+          "Elements_Normalized": null
+        },
+        "Measured_Composition": {
+          "Composition_Type": "wt%",
+          "Elements_Normalized": {
+            "Al": 4.7,
+            "Ti": 79.04,
+            "V": 3.39,
+            "Cr": 2.12,
+            "Fe": 2.54,
+            "Ni": 6.91,
+            "Nb": 3.09
+          },
+          "Measurement_Method": "SEM/EDX (Region A at height 4.10 mm)"
+        }
+      },
+      "Process_Info": {
+        "Process_Category": "AM_LPBF + Graded_Composition",
+        "Process_Text": {
+          "original": "IN718 quantity was increased to 20 wt% for 12 layers. Laser power 300 W, scan speed 450 mm/s, hatch distance 50 um, layer thickness 50 um, energy density 267 J/mm3.",
+          "simplified": "IN718 quantity was increased to 20 wt% for 12 layers. -> Laser power 300 W, scan speed 450 mm/s, hatch distance 50 um, layer thickness 50 um, energy density 267 J/mm3."
+        },
+        "Key_Params": {
+          "Number_of_Layers": 12,
+          "Laser_Power_W": 300,
+          "Scanning_Speed_mm_s": 450,
+          "Hatch_Spacing_um": 50,
+          "Layer_Thickness_um": 50,
+          "Volumetric_Energy_Density_J_mm3": 267.0,
+          "Protective_Atmosphere": "Argon"
+        }
+      },
+      "Microstructure_Info": {
+        "Microstructure_Text": {
+          "original": "Complex microstructure with intermetallic phases; highest hardness in graded specimen; no delamination; fully dense and crack-free internal section; dilution effect creates smoother transition than pre-mixed blends; remelting of previously solidified layers creates functionally graded material",
+          "simplified": "Defect-free dense microstructure; intermetallic phases; highest hardness zone; no cracks or delamination; functionally graded composition"
+        },
+        "Main_Phase": null,
+        "Porosity_pct": null,
+        "Relative_Density_pct": null,
+        "Grain_Size_avg_um": null,
+        "Precipitate_Size_avg_nm": null,
+        "Precipitate_Volume_Fraction_pct": null,
+        "Advanced_Quantitative_Features": {}
+      },
+      "Properties_Info": []
+    }
+  ]
+}

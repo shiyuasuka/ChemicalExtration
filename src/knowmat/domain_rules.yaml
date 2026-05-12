@@ -1,0 +1,441 @@
+# Domain rules for KnowMat 2.0 G4 Ligand extraction.
+# biochemistry / chemistry domain rules — edit this file to adjust
+# extraction heuristics without modifying Python code.
+
+# ---------------------------------------------------------------------------
+# Ligand ID patterns
+# ---------------------------------------------------------------------------
+
+# G4 ligand IDs follow the G4Lxxxx pattern (e.g., G4L0065, G4L0140).
+# This list is used to validate / auto-assign ligand IDs.
+ligand_id_prefixes:
+  - G4L
+
+# ---------------------------------------------------------------------------
+# Sequence type keywords
+# ---------------------------------------------------------------------------
+
+sequence_type_keywords:
+  DNA:
+    - DNA
+    - deoxyribonucleic acid
+    - oligodeoxynucleotide
+    - d(...)
+    - 5'-d...
+    - 3'-d...
+  RNA:
+    - RNA
+    - ribonucleic acid
+    - oligonucleotide
+    - r(...)
+    - 5'-r...
+    - 3'-r...
+  DNA/RNA hybrid:
+    - DNA/RNA hybrid
+    - chimeric
+    - hybrid oligonucleotide
+  PNA:
+    - PNA
+    - peptide nucleic acid
+  LNA:
+    - LNA
+    - locked nucleic acid
+  Modified oligonucleotide:
+    - modified base
+    - 2'-o-methyl
+    - 2'-fluoro
+    - phosphorothioate
+
+# ---------------------------------------------------------------------------
+# Activity 1 (primary) classification
+# ---------------------------------------------------------------------------
+
+activity1_keywords:
+  Interaction:
+    - interaction
+    - interacts
+    - binding
+    - binds
+    - stabilization
+    - stabilizes
+    - stabilised
+    - recognition
+    - selectivity
+    - affinity
+    - kd
+    - ka
+    - kb
+    - stoichiometry
+    - binding site
+    - binding mode
+    - molecular dynamics
+    - md simulation
+    - docking
+    - mm-pbsa
+    - markov state model
+    - msm
+    - nmr
+    - dsc
+    - cd
+    - itc
+    - spr
+    - fluorescence
+    - uv-vis
+  Activity at Molecular Level:
+    - gene expression
+    - dna damage
+    - telomerase
+    - enzyme
+    - trap assay
+    - chip
+    - chromatin immunoprecipitation
+    - receptor inhibition
+    - herg
+    - b2 adrenergic
+    - immunofluorescence
+    - fluorescent in situ hybridization
+    - fish
+    - telomere dysfunction
+    - telomere damage
+  Activity at Cellular Level:
+    - cell viability
+    - cytotoxicity
+    - cytotoxic
+    - srb assay
+    - sulforhodamine b
+    - growth inhibition
+    - proliferation assay
+
+# ---------------------------------------------------------------------------
+# Activity 2 / measurement subtype keywords
+# ---------------------------------------------------------------------------
+
+activity2_keywords:
+  Binding:
+    - binding affinity
+    - dissociation constant
+    - association constant
+    - kd
+    - ka
+    - kb
+    - docking score
+    - rise=
+    - h-twist
+    - binding stoichiometr
+    - binding site
+    - binding mode
+    - intercalation
+    - mm-pbsa
+    - interstate flux
+    - molecular dynamics
+  Stabilization:
+    - thermal shift
+    - ΔTm
+    - delta tm
+    - delta tm1
+    - delta tm2
+    - delta tm3
+    - delta tm4
+    - delta tm5
+    - melting temperature change
+    - tm increase
+    - stabilization
+  Recognition:
+    - recognition
+    - higher binding affinity
+    - fold higher
+    - duplex control
+    - selectivity
+    - preferential binding
+  Enzyme:
+    - telomerase
+    - trap assay
+    - telomeric repeat amplification protocol
+    - enzyme
+  Gene Expression:
+    - gene expression
+    - receptor inhibition
+    - herg
+    - b2 adrenergic
+    - inhibition
+  DNA Damage:
+    - dna damage
+    - damage response
+    - telomere dysfunction
+    - telomere damage
+    - telomere aberration
+    - pot1
+    - chromatin immunoprecipitation
+    - immunofluorescence
+    - fish
+  Cytotoxicity:
+    - cytotoxicity
+    - sulforhodamine b
+    - srb assay
+    - growth inhibition
+    - cell viability
+    - ic50
+
+# ---------------------------------------------------------------------------
+# Experimental method keywords
+# ---------------------------------------------------------------------------
+
+method_keywords:
+  Isothermal Titration Calorimetry (ITC):
+    - isothermal titration calorimetry
+    - ITC
+    - iTC200
+    - MicroCal
+  Surface Plasmon Resonance (SPR):
+    - surface plasmon resonance
+    - SPR
+    - Biacore
+    - Biacore T200
+  Circular Dichroism (CD):
+    - circular dichroism
+    - CD
+    - CD melting
+    - Jasco
+    - J-815
+  UV-Vis Absorption Spectroscopy:
+    - UV-Vis
+    - UV/Vis
+    - spectrophotometric titration
+    - Cary
+  Fluorescence Spectroscopy (Fl):
+    - fluorescence titration
+    - fluorometric titration
+    - steady-state fluorescence
+    - fluorescence spectroscopy
+    - fluorescence assay
+    - fluorescence emission
+    - plate reader
+  FRET melting assay:
+    - FRET melting
+    - FRET melt
+    - melt assay
+  Differential Scanning Calorimetry (DSC):
+    - differential scanning calorimetry
+    - DSC
+    - VP DSC
+    - VP DSC Microcalorimeter
+  Thermal melting (Tm):
+    - thermal melting
+    - Tm
+    - melting temperature
+    - thermal denaturation
+  Gel electrophoresis:
+    - gel electrophoresis
+    - native PAGE
+    - EMSA
+  Nuclear Magnetic Resonance (NMR):
+    - NMR
+    - nuclear magnetic resonance
+    - NOESY
+    - DOSY
+    - 31P
+  Molecule Dynamics (MD) Simulation:
+    - molecular dynamics
+    - restrained molecular dynamics
+    - amber16
+    - amber
+    - simulated annealing
+    - pdb id
+  Molecular Docking Calculation:
+    - molecular docking
+    - docking score
+    - glide xp
+    - autodock
+  Markov State Model (MSM) analysis:
+    - markov state model
+    - msm analysis
+  Molecular Mechanics Poisson Boltzmann Surface Area (MM-PBSA):
+    - molecular mechanics poisson boltzmann surface area
+    - mm-pbsa
+    - mmpbsa
+  Telomeric Repeat Amplification Protocol (TRAP) Assay:
+    - telomeric repeat amplification protocol
+    - trap assay
+    - modified trap assay
+  Sulforhodamine B assay (SRB):
+    - sulforhodamine b
+    - srb assay
+    - growth inhibition assay
+  Chromatin Immunoprecipitation (ChIP):
+    - chromatin immunoprecipitation
+    - chip
+  Immunofluorescence (IF):
+    - immunofluorescence
+    - immunolabeling
+    - antibody staining
+  Fluorescent in Situ Hybridization (FISH):
+    - fluorescent in situ hybridization
+    - fish
+  Receptor Inhibition Study:
+    - receptor inhibition study
+    - receptor inhibition
+    - herg
+    - b2 adrenergic
+  X-ray crystallography:
+    - X-ray
+    - crystallography
+    - crystal structure
+  Mass spectrometry:
+    - mass spectrometry
+    - MS
+    - MALDI
+    - ESI-MS
+  MST:
+    - microscale thermophoresis
+    - MST
+    - NanoTemper
+  Fluorescence displacement assay:
+    - fluorescence displacement
+    - displacement assay
+    - NDA assay
+  Competition dialysis:
+    - competition dialysis
+  Cell viability assay:
+    - cell viability
+    - MTT
+    - WST
+    - CCK-8
+  Confocal microscopy:
+    - confocal microscopy
+    - microscopy
+  Flow cytometry:
+    - flow cytometry
+  Reporter assay:
+    - reporter assay
+    - luciferase
+  PCR stop assay:
+    - PCR stop
+    - stop assay
+  Footprinting assay:
+    - footprinting
+    - DNA footprinting
+
+# ---------------------------------------------------------------------------
+# Buffer component patterns
+# ---------------------------------------------------------------------------
+
+buffer_components:
+  Tris-HCl:
+    - tris-hcl
+    - tris HCl
+    - tris buffer
+    - tris
+  PBS:
+    - phosphate buffered saline
+    - PBS
+    - phosphate buffer
+  HEPES:
+    - hepes
+    - HEPES
+  Potassium phosphate:
+    - potassium phosphate
+    - K-phosphate
+  Sodium cacodylate:
+    - sodium cacodylate
+    - cacodylate
+  KCl:
+    - KCl
+    - potassium chloride
+  NaCl:
+    - NaCl
+    - sodium chloride
+  MgCl2:
+    - MgCl2
+    - magnesium chloride
+  EDTA:
+    - EDTA
+    - ethylenediaminetetraacetic
+
+# ---------------------------------------------------------------------------
+# Counter-ion patterns
+# ---------------------------------------------------------------------------
+
+counter_ion_patterns:
+  Cl−:
+    - Cl-
+    - chloride
+    - Cl−
+  Br−:
+    - Br-
+    - bromide
+    - Br−
+  I−:
+    - I-
+    - iodide
+    - I−
+  PF6−:
+    - PF6-
+    - PF6−
+    - hexafluorophosphate
+  BF4−:
+    - BF4-
+    - BF4−
+    - tetrafluoroborate
+  ClO4−:
+    - ClO4-
+    - ClO4−
+    - perchlorate
+
+# ---------------------------------------------------------------------------
+# Metal ion patterns
+# ---------------------------------------------------------------------------
+
+metal_ion_patterns:
+  K+:
+    - K+
+    - potassium ion
+  Na+:
+    - Na+
+    - sodium ion
+  Li+:
+    - Li+
+    - lithium
+  Mg2+:
+    - Mg2+
+    - magnesium
+  Ca2+:
+    - Ca2+
+    - calcium
+  Zn2+:
+    - Zn2+
+    - zinc
+
+# ---------------------------------------------------------------------------
+# Ligand synonym types (for parsing synonyms string)
+# ---------------------------------------------------------------------------
+
+synonym_type_keywords:
+  CAS number:
+    - CAS
+    - CAS number
+  CHEMBL ID:
+    - CHEMBL
+    - CHEMBL ID
+  CHEBI ID:
+    - CHEBI
+    - CHEBI ID
+  DrugBank ID:
+    - DrugBank
+  NSC ID:
+    - NSC
+    - NSC number
+  SCHEMBL ID:
+    - SCHEMBL
+  UNII:
+    - UNII
+  NCGC ID:
+    - NCGC
+  Abbreviation:
+    - abbreviation
+  Common name:
+    - common name
+  Salt form:
+    - hydrochloride
+    - HCl
+    - perchlorate
+    - PF6

@@ -1,0 +1,2600 @@
+{
+  "generated_at": "2026-04-15T18:35:39.791343",
+  "config": {
+    "groundtruth_dir": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/学校工程结果",
+    "output_dir": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/data/processed",
+    "match_max_cost": 16.0
+  },
+  "overall": {
+    "gt_records": 151,
+    "pred_records": 96,
+    "record_detection": {
+      "tp": 64,
+      "fp": 32,
+      "fn": 87,
+      "precision": 0.666667,
+      "recall": 0.423841,
+      "f1": 0.518219
+    },
+    "full_record_hit": {
+      "full_hit": 0,
+      "total_matched": 64,
+      "hit_rate": 0.0
+    },
+    "field_accuracy": {
+      "ligand_id": {
+        "pairs": 64,
+        "gt_nonempty": 64,
+        "pred_nonempty": 58,
+        "exact": 56,
+        "pair_exact_rate": 0.875,
+        "gt_cover_exact_rate": 0.875,
+        "pred_fill_rate": 0.90625
+      },
+      "ligand_name": {
+        "pairs": 64,
+        "gt_nonempty": 64,
+        "pred_nonempty": 64,
+        "exact": 10,
+        "pair_exact_rate": 0.15625,
+        "gt_cover_exact_rate": 0.15625,
+        "pred_fill_rate": 1.0
+      },
+      "ligand_name_std": {
+        "pairs": 64,
+        "gt_nonempty": 42,
+        "pred_nonempty": 52,
+        "exact": 20,
+        "pair_exact_rate": 0.3125,
+        "gt_cover_exact_rate": 0.190476,
+        "pred_fill_rate": 0.8125
+      },
+      "ligand_synonyms": {
+        "pairs": 64,
+        "gt_nonempty": 42,
+        "pred_nonempty": 57,
+        "exact": 4,
+        "pair_exact_rate": 0.0625,
+        "gt_cover_exact_rate": 0.0,
+        "pred_fill_rate": 0.890625
+      },
+      "sequence": {
+        "pairs": 64,
+        "gt_nonempty": 34,
+        "pred_nonempty": 8,
+        "exact": 24,
+        "pair_exact_rate": 0.375,
+        "gt_cover_exact_rate": 0.029412,
+        "pred_fill_rate": 0.125
+      },
+      "sequence_name": {
+        "pairs": 64,
+        "gt_nonempty": 24,
+        "pred_nonempty": 57,
+        "exact": 28,
+        "pair_exact_rate": 0.4375,
+        "gt_cover_exact_rate": 0.875,
+        "pred_fill_rate": 0.890625
+      },
+      "sequence_type": {
+        "pairs": 64,
+        "gt_nonempty": 34,
+        "pred_nonempty": 41,
+        "exact": 52,
+        "pair_exact_rate": 0.8125,
+        "gt_cover_exact_rate": 0.852941,
+        "pred_fill_rate": 0.640625
+      },
+      "activity1": {
+        "pairs": 64,
+        "gt_nonempty": 64,
+        "pred_nonempty": 64,
+        "exact": 64,
+        "pair_exact_rate": 1.0,
+        "gt_cover_exact_rate": 1.0,
+        "pred_fill_rate": 1.0
+      },
+      "activity2": {
+        "pairs": 64,
+        "gt_nonempty": 64,
+        "pred_nonempty": 64,
+        "exact": 64,
+        "pair_exact_rate": 1.0,
+        "gt_cover_exact_rate": 1.0,
+        "pred_fill_rate": 1.0
+      },
+      "method": {
+        "pairs": 64,
+        "gt_nonempty": 64,
+        "pred_nonempty": 64,
+        "exact": 61,
+        "pair_exact_rate": 0.953125,
+        "gt_cover_exact_rate": 0.953125,
+        "pred_fill_rate": 1.0
+      },
+      "value": {
+        "pairs": 64,
+        "gt_nonempty": 64,
+        "pred_nonempty": 64,
+        "exact": 25,
+        "pair_exact_rate": 0.390625,
+        "gt_cover_exact_rate": 0.390625,
+        "pred_fill_rate": 1.0
+      },
+      "buffer": {
+        "pairs": 64,
+        "gt_nonempty": 0,
+        "pred_nonempty": 27,
+        "exact": 37,
+        "pair_exact_rate": 0.578125,
+        "gt_cover_exact_rate": null,
+        "pred_fill_rate": 0.421875
+      },
+      "sample_concentration": {
+        "pairs": 64,
+        "gt_nonempty": 8,
+        "pred_nonempty": 30,
+        "exact": 33,
+        "pair_exact_rate": 0.515625,
+        "gt_cover_exact_rate": 0.0,
+        "pred_fill_rate": 0.46875
+      },
+      "instrument": {
+        "pairs": 64,
+        "gt_nonempty": 3,
+        "pred_nonempty": 23,
+        "exact": 39,
+        "pair_exact_rate": 0.609375,
+        "gt_cover_exact_rate": 0.0,
+        "pred_fill_rate": 0.359375
+      },
+      "comments": {
+        "pairs": 64,
+        "gt_nonempty": 49,
+        "pred_nonempty": 64,
+        "exact": 0,
+        "pair_exact_rate": 0.0,
+        "gt_cover_exact_rate": 0.0,
+        "pred_fill_rate": 1.0
+      },
+      "counter_ion": {
+        "pairs": 64,
+        "gt_nonempty": 0,
+        "pred_nonempty": 16,
+        "exact": 48,
+        "pair_exact_rate": 0.75,
+        "gt_cover_exact_rate": null,
+        "pred_fill_rate": 0.25
+      },
+      "metal_ion": {
+        "pairs": 64,
+        "gt_nonempty": 0,
+        "pred_nonempty": 18,
+        "exact": 46,
+        "pair_exact_rate": 0.71875,
+        "gt_cover_exact_rate": null,
+        "pred_fill_rate": 0.28125
+      },
+      "context": {
+        "pairs": 64,
+        "gt_nonempty": 0,
+        "pred_nonempty": 64,
+        "exact": 0,
+        "pair_exact_rate": 0.0,
+        "gt_cover_exact_rate": null,
+        "pred_fill_rate": 1.0
+      }
+    }
+  },
+  "by_activity2": {
+    "binding": {
+      "tp": 14,
+      "fp": 5,
+      "fn": 79,
+      "precision": 0.736842,
+      "recall": 0.150538,
+      "f1": 0.25
+    },
+    "cytotoxicity": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.888889,
+      "f1": 0.941176
+    },
+    "dnadamage": {
+      "tp": 4,
+      "fp": 6,
+      "fn": 0,
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1": 0.571429
+    },
+    "enzyme": {
+      "tp": 7,
+      "fp": 15,
+      "fn": 0,
+      "precision": 0.318182,
+      "recall": 1.0,
+      "f1": 0.482759
+    },
+    "geneexpression": {
+      "tp": 3,
+      "fp": 3,
+      "fn": 0,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.666667
+    },
+    "recognition": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 5,
+      "precision": 1.0,
+      "recall": 0.166667,
+      "f1": 0.285714
+    },
+    "stabilization": {
+      "tp": 19,
+      "fp": 3,
+      "fn": 1,
+      "precision": 0.863636,
+      "recall": 0.95,
+      "f1": 0.904762
+    }
+  },
+  "by_method": {
+    "chromatinimmunoprecipitationchip": {
+      "tp": 2,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.666667
+    },
+    "circulardichroismcd": {
+      "tp": 10,
+      "fp": 3,
+      "fn": 1,
+      "precision": 0.769231,
+      "recall": 0.909091,
+      "f1": 0.833333
+    },
+    "differentialscanningcalorimetrydsc": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "fluorescencespectroscopyfl": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 13,
+      "precision": 0.5,
+      "recall": 0.071429,
+      "f1": 0.125
+    },
+    "fluorescentinsituhybridizationfish": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "immunofluorescenceif": {
+      "tp": 1,
+      "fp": 4,
+      "fn": 0,
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.333333
+    },
+    "isothermaltitrationcalorimetryitc": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 12,
+      "precision": 1.0,
+      "recall": 0.142857,
+      "f1": 0.25
+    },
+    "markovstatemodelmsmanalysis": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "moleculardockingcalculation": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 16,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "molecularmechanicspoissonboltzmannsurfaceareamm-pbsa": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "moleculedynamicsmdsimulation": {
+      "tp": 6,
+      "fp": 1,
+      "fn": 42,
+      "precision": 0.857143,
+      "recall": 0.125,
+      "f1": 0.218182
+    },
+    "nuclearmagneticresonancenmr": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "receptorinhibitionstudy": {
+      "tp": 3,
+      "fp": 3,
+      "fn": 0,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.666667
+    },
+    "sulforhodaminebassaysrb": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.888889,
+      "f1": 0.941176
+    },
+    "surfaceplasmonresonancespr": {
+      "tp": 0,
+      "fp": 3,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "telomericrepeatamplificationprotocoltrapassay": {
+      "tp": 7,
+      "fp": 15,
+      "fn": 0,
+      "precision": 0.318182,
+      "recall": 1.0,
+      "f1": 0.482759
+    },
+    "uv-visabsorptionspectroscopy": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "articles": [
+    {
+      "paper_id": "6",
+      "groundtruth_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/学校工程结果/paper_6.json",
+      "predicted_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/data/processed/6/6_extraction.json",
+      "gt_records": 25,
+      "pred_records": 38,
+      "record_detection": {
+        "tp": 23,
+        "fp": 15,
+        "fn": 2,
+        "precision": 0.605263,
+        "recall": 0.92,
+        "f1": 0.730159
+      },
+      "full_record_hit": {
+        "full_hit": 0,
+        "total_matched": 23,
+        "hit_rate": 0.0
+      },
+      "field_accuracy": {
+        "ligand_id": {
+          "pairs": 23,
+          "gt_nonempty": 23,
+          "pred_nonempty": 18,
+          "exact": 18,
+          "pair_exact_rate": 0.782609,
+          "gt_cover_exact_rate": 0.782609,
+          "pred_fill_rate": 0.782609
+        },
+        "ligand_name": {
+          "pairs": 23,
+          "gt_nonempty": 23,
+          "pred_nonempty": 23,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_name_std": {
+          "pairs": 23,
+          "gt_nonempty": 21,
+          "pred_nonempty": 23,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_synonyms": {
+          "pairs": 23,
+          "gt_nonempty": 21,
+          "pred_nonempty": 18,
+          "exact": 2,
+          "pair_exact_rate": 0.086957,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 0.782609
+        },
+        "sequence": {
+          "pairs": 23,
+          "gt_nonempty": 0,
+          "pred_nonempty": 7,
+          "exact": 16,
+          "pair_exact_rate": 0.695652,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.304348
+        },
+        "sequence_name": {
+          "pairs": 23,
+          "gt_nonempty": 0,
+          "pred_nonempty": 23,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "sequence_type": {
+          "pairs": 23,
+          "gt_nonempty": 0,
+          "pred_nonempty": 7,
+          "exact": 16,
+          "pair_exact_rate": 0.695652,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.304348
+        },
+        "activity1": {
+          "pairs": 23,
+          "gt_nonempty": 23,
+          "pred_nonempty": 23,
+          "exact": 23,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "activity2": {
+          "pairs": 23,
+          "gt_nonempty": 23,
+          "pred_nonempty": 23,
+          "exact": 23,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "method": {
+          "pairs": 23,
+          "gt_nonempty": 23,
+          "pred_nonempty": 23,
+          "exact": 23,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "value": {
+          "pairs": 23,
+          "gt_nonempty": 23,
+          "pred_nonempty": 23,
+          "exact": 11,
+          "pair_exact_rate": 0.478261,
+          "gt_cover_exact_rate": 0.478261,
+          "pred_fill_rate": 1.0
+        },
+        "buffer": {
+          "pairs": 23,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 23,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "sample_concentration": {
+          "pairs": 23,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 23,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "instrument": {
+          "pairs": 23,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 23,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "comments": {
+          "pairs": 23,
+          "gt_nonempty": 23,
+          "pred_nonempty": 23,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "counter_ion": {
+          "pairs": 23,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 23,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "metal_ion": {
+          "pairs": 23,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 23,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "context": {
+          "pairs": 23,
+          "gt_nonempty": 0,
+          "pred_nonempty": 23,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        }
+      },
+      "field_ranking": [
+        [
+          "buffer",
+          -1.0
+        ],
+        [
+          "context",
+          -1.0
+        ],
+        [
+          "counter_ion",
+          -1.0
+        ],
+        [
+          "instrument",
+          -1.0
+        ],
+        [
+          "metal_ion",
+          -1.0
+        ],
+        [
+          "sample_concentration",
+          -1.0
+        ],
+        [
+          "sequence",
+          -1.0
+        ],
+        [
+          "sequence_name",
+          -1.0
+        ],
+        [
+          "sequence_type",
+          -1.0
+        ],
+        [
+          "comments",
+          0.0
+        ],
+        [
+          "ligand_name",
+          0.0
+        ],
+        [
+          "ligand_name_std",
+          0.0
+        ],
+        [
+          "ligand_synonyms",
+          0.0
+        ],
+        [
+          "value",
+          0.4782608695652174
+        ],
+        [
+          "ligand_id",
+          0.782608695652174
+        ],
+        [
+          "activity1",
+          1.0
+        ],
+        [
+          "activity2",
+          1.0
+        ],
+        [
+          "method",
+          1.0
+        ]
+      ],
+      "missing_examples": [
+        {
+          "ligand_id": "G4L0082",
+          "ligand_name": "2,7-disubstituted fluorenone derivative 16a",
+          "sequence_name": null,
+          "sequence": null,
+          "activity1": "Activity at Cellular Level",
+          "activity2": "Cytotoxicity",
+          "method": "Sulforhodamine B assay (SRB)",
+          "value": "IC50>20 μM"
+        },
+        {
+          "ligand_id": "G4L0087",
+          "ligand_name": "2,7-disubstituted fluorenone derivative 21a",
+          "sequence_name": null,
+          "sequence": null,
+          "activity1": "Activity at Cellular Level",
+          "activity2": "Cytotoxicity",
+          "method": "Sulforhodamine B assay (SRB)",
+          "value": "IC50=2.4 μM"
+        }
+      ],
+      "extra_examples": [
+        {
+          "ligand_id": "G4L0073",
+          "ligand_name": "7a",
+          "sequence_name": "telomeric DNA",
+          "sequence": "TTAGGGTTAGGGTTAGGGTTAGGG",
+          "activity1": "Activity at Molecular Level",
+          "activity2": "Enzyme",
+          "method": "Telomeric Repeat Amplification Protocol (TRAP) Assay",
+          "value": "IC50=15.5 μM"
+        },
+        {
+          "ligand_id": null,
+          "ligand_name": "8a",
+          "sequence_name": "telomeric DNA",
+          "sequence": "TTAGGGTTAGGGTTAGGGTTAGGG",
+          "activity1": "Activity at Molecular Level",
+          "activity2": "Enzyme",
+          "method": "Telomeric Repeat Amplification Protocol (TRAP) Assay",
+          "value": "IC50>>50 μM"
+        },
+        {
+          "ligand_id": "G4L0090",
+          "ligand_name": "8b",
+          "sequence_name": "telomeric DNA",
+          "sequence": "TTAGGGTTAGGGTTAGGGTTAGGG",
+          "activity1": "Activity at Molecular Level",
+          "activity2": "Enzyme",
+          "method": "Telomeric Repeat Amplification Protocol (TRAP) Assay",
+          "value": "IC50=27.3 μM"
+        },
+        {
+          "ligand_id": null,
+          "ligand_name": "9b",
+          "sequence_name": "telomeric DNA",
+          "sequence": "TTAGGGTTAGGGTTAGGGTTAGGG",
+          "activity1": "Activity at Molecular Level",
+          "activity2": "Enzyme",
+          "method": "Telomeric Repeat Amplification Protocol (TRAP) Assay",
+          "value": "IC50=21 μM"
+        },
+        {
+          "ligand_id": "G4L0092",
+          "ligand_name": "10b",
+          "sequence_name": "telomeric DNA",
+          "sequence": "TTAGGGTTAGGGTTAGGGTTAGGG",
+          "activity1": "Activity at Molecular Level",
+          "activity2": "Enzyme",
+          "method": "Telomeric Repeat Amplification Protocol (TRAP) Assay",
+          "value": "IC50>20 μM"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "gt_index": 14,
+          "pred_index": 30,
+          "cost": 1.0
+        },
+        {
+          "gt_index": 18,
+          "pred_index": 34,
+          "cost": 1.0
+        },
+        {
+          "gt_index": 20,
+          "pred_index": 22,
+          "cost": 1.0
+        },
+        {
+          "gt_index": 23,
+          "pred_index": 23,
+          "cost": 1.0
+        },
+        {
+          "gt_index": 1,
+          "pred_index": 6,
+          "cost": 3.0
+        },
+        {
+          "gt_index": 2,
+          "pred_index": 3,
+          "cost": 3.0
+        },
+        {
+          "gt_index": 3,
+          "pred_index": 16,
+          "cost": 3.0
+        },
+        {
+          "gt_index": 4,
+          "pred_index": 0,
+          "cost": 3.0
+        },
+        {
+          "gt_index": 5,
+          "pred_index": 8,
+          "cost": 3.0
+        },
+        {
+          "gt_index": 6,
+          "pred_index": 1,
+          "cost": 3.0
+        },
+        {
+          "gt_index": 0,
+          "pred_index": 10,
+          "cost": 6.0
+        },
+        {
+          "gt_index": 8,
+          "pred_index": 24,
+          "cost": 6.0
+        },
+        {
+          "gt_index": 9,
+          "pred_index": 31,
+          "cost": 6.0
+        },
+        {
+          "gt_index": 10,
+          "pred_index": 25,
+          "cost": 6.0
+        },
+        {
+          "gt_index": 13,
+          "pred_index": 32,
+          "cost": 6.0
+        },
+        {
+          "gt_index": 15,
+          "pred_index": 28,
+          "cost": 6.0
+        },
+        {
+          "gt_index": 16,
+          "pred_index": 27,
+          "cost": 6.0
+        },
+        {
+          "gt_index": 17,
+          "pred_index": 33,
+          "cost": 6.0
+        },
+        {
+          "gt_index": 24,
+          "pred_index": 36,
+          "cost": 6.0
+        },
+        {
+          "gt_index": 7,
+          "pred_index": 26,
+          "cost": 9.0
+        },
+        {
+          "gt_index": 11,
+          "pred_index": 29,
+          "cost": 9.0
+        },
+        {
+          "gt_index": 12,
+          "pred_index": 35,
+          "cost": 9.0
+        },
+        {
+          "gt_index": 19,
+          "pred_index": 37,
+          "cost": 9.0
+        }
+      ]
+    },
+    {
+      "paper_id": "19",
+      "groundtruth_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/学校工程结果/paper_19.json",
+      "predicted_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/data/processed/19/19_extraction.json",
+      "gt_records": 9,
+      "pred_records": 22,
+      "record_detection": {
+        "tp": 8,
+        "fp": 14,
+        "fn": 1,
+        "precision": 0.363636,
+        "recall": 0.888889,
+        "f1": 0.516129
+      },
+      "full_record_hit": {
+        "full_hit": 0,
+        "total_matched": 8,
+        "hit_rate": 0.0
+      },
+      "field_accuracy": {
+        "ligand_id": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 6,
+          "pair_exact_rate": 0.75,
+          "gt_cover_exact_rate": 0.75,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_name": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_name_std": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_synonyms": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "sequence": {
+          "pairs": 8,
+          "gt_nonempty": 1,
+          "pred_nonempty": 1,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 0.125
+        },
+        "sequence_name": {
+          "pairs": 8,
+          "gt_nonempty": 1,
+          "pred_nonempty": 1,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 0.125
+        },
+        "sequence_type": {
+          "pairs": 8,
+          "gt_nonempty": 1,
+          "pred_nonempty": 1,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 0.125
+        },
+        "activity1": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "activity2": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "method": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 6,
+          "pair_exact_rate": 0.75,
+          "gt_cover_exact_rate": 0.75,
+          "pred_fill_rate": 1.0
+        },
+        "value": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 1,
+          "pair_exact_rate": 0.125,
+          "gt_cover_exact_rate": 0.125,
+          "pred_fill_rate": 1.0
+        },
+        "buffer": {
+          "pairs": 8,
+          "gt_nonempty": 0,
+          "pred_nonempty": 1,
+          "exact": 7,
+          "pair_exact_rate": 0.875,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.125
+        },
+        "sample_concentration": {
+          "pairs": 8,
+          "gt_nonempty": 0,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "instrument": {
+          "pairs": 8,
+          "gt_nonempty": 0,
+          "pred_nonempty": 1,
+          "exact": 7,
+          "pair_exact_rate": 0.875,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.125
+        },
+        "comments": {
+          "pairs": 8,
+          "gt_nonempty": 7,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "counter_ion": {
+          "pairs": 8,
+          "gt_nonempty": 0,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "metal_ion": {
+          "pairs": 8,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "context": {
+          "pairs": 8,
+          "gt_nonempty": 0,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        }
+      },
+      "field_ranking": [
+        [
+          "buffer",
+          -1.0
+        ],
+        [
+          "context",
+          -1.0
+        ],
+        [
+          "counter_ion",
+          -1.0
+        ],
+        [
+          "instrument",
+          -1.0
+        ],
+        [
+          "metal_ion",
+          -1.0
+        ],
+        [
+          "sample_concentration",
+          -1.0
+        ],
+        [
+          "comments",
+          0.0
+        ],
+        [
+          "ligand_name",
+          0.0
+        ],
+        [
+          "ligand_name_std",
+          0.0
+        ],
+        [
+          "ligand_synonyms",
+          0.0
+        ],
+        [
+          "value",
+          0.125
+        ],
+        [
+          "ligand_id",
+          0.75
+        ],
+        [
+          "method",
+          0.75
+        ],
+        [
+          "activity1",
+          1.0
+        ],
+        [
+          "activity2",
+          1.0
+        ],
+        [
+          "sequence",
+          1.0
+        ],
+        [
+          "sequence_name",
+          1.0
+        ],
+        [
+          "sequence_type",
+          1.0
+        ]
+      ],
+      "missing_examples": [
+        {
+          "ligand_id": "G4L1613",
+          "ligand_name": "3",
+          "sequence_name": null,
+          "sequence": "AGGGTTAGGGTTAGGGTTAGGG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Surface Plasmon Resonance (SPR)",
+          "value": "KD=0.8×10e-7 M-1"
+        }
+      ],
+      "extra_examples": [
+        {
+          "ligand_id": "G4L0108",
+          "ligand_name": "RHPS4 (1)",
+          "sequence_name": "h-Tel",
+          "sequence": "AGGGTTAGGGTTAGGGTTAGGG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Surface Plasmon Resonance (SPR)",
+          "value": "K=0.83×10^7 M−1"
+        },
+        {
+          "ligand_id": "G4L0108",
+          "ligand_name": "Compound 2",
+          "sequence_name": "h-Tel",
+          "sequence": "AGGGTTAGGGTTAGGGTTAGGG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Surface Plasmon Resonance (SPR)",
+          "value": "K=1.5×10^7 M−1"
+        },
+        {
+          "ligand_id": "G4L0108",
+          "ligand_name": "Compound 3",
+          "sequence_name": "h-Tel",
+          "sequence": "AGGGTTAGGGTTAGGGTTAGGG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Surface Plasmon Resonance (SPR)",
+          "value": "K=0.8×10^7 M−1"
+        },
+        {
+          "ligand_id": "G4L0108",
+          "ligand_name": "RHPS4 (1)",
+          "sequence_name": "h-Tel",
+          "sequence": "AGGGTTAGGGTTAGGGTTAGGG",
+          "activity1": "Interaction",
+          "activity2": "Stabilization",
+          "method": "Circular Dichroism (CD)",
+          "value": "ΔTm=16 °C"
+        },
+        {
+          "ligand_id": "G4L0108",
+          "ligand_name": "Compound 2",
+          "sequence_name": "h-Tel",
+          "sequence": "AGGGTTAGGGTTAGGGTTAGGG",
+          "activity1": "Interaction",
+          "activity2": "Stabilization",
+          "method": "Circular Dichroism (CD)",
+          "value": "ΔTm=19 °C"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "gt_index": 3,
+          "pred_index": 6,
+          "cost": 5.25
+        },
+        {
+          "gt_index": 4,
+          "pred_index": 17,
+          "cost": 5.25
+        },
+        {
+          "gt_index": 5,
+          "pred_index": 7,
+          "cost": 5.25
+        },
+        {
+          "gt_index": 7,
+          "pred_index": 19,
+          "cost": 5.25
+        },
+        {
+          "gt_index": 8,
+          "pred_index": 8,
+          "cost": 5.25
+        },
+        {
+          "gt_index": 0,
+          "pred_index": 5,
+          "cost": 5.75
+        },
+        {
+          "gt_index": 1,
+          "pred_index": 12,
+          "cost": 15.25
+        },
+        {
+          "gt_index": 6,
+          "pred_index": 18,
+          "cost": 15.25
+        }
+      ]
+    },
+    {
+      "paper_id": "21",
+      "groundtruth_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/学校工程结果/paper_21.json",
+      "predicted_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/data/processed/21/21_extraction.json",
+      "gt_records": 51,
+      "pred_records": 11,
+      "record_detection": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 41,
+        "precision": 0.909091,
+        "recall": 0.196078,
+        "f1": 0.322581
+      },
+      "full_record_hit": {
+        "full_hit": 0,
+        "total_matched": 10,
+        "hit_rate": 0.0
+      },
+      "field_accuracy": {
+        "ligand_id": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 9,
+          "exact": 9,
+          "pair_exact_rate": 0.9,
+          "gt_cover_exact_rate": 0.9,
+          "pred_fill_rate": 0.9
+        },
+        "ligand_name": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_name_std": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 8,
+          "exact": 2,
+          "pair_exact_rate": 0.2,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.8
+        },
+        "ligand_synonyms": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 8,
+          "exact": 2,
+          "pair_exact_rate": 0.2,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.8
+        },
+        "sequence": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 0,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 0.0
+        },
+        "sequence_name": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "sequence_type": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "activity1": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "activity2": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "method": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "value": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 1,
+          "pair_exact_rate": 0.1,
+          "gt_cover_exact_rate": 0.1,
+          "pred_fill_rate": 1.0
+        },
+        "buffer": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 4,
+          "exact": 6,
+          "pair_exact_rate": 0.6,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.4
+        },
+        "sample_concentration": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "instrument": {
+          "pairs": 10,
+          "gt_nonempty": 2,
+          "pred_nonempty": 0,
+          "exact": 8,
+          "pair_exact_rate": 0.8,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 0.0
+        },
+        "comments": {
+          "pairs": 10,
+          "gt_nonempty": 6,
+          "pred_nonempty": 10,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "counter_ion": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 8,
+          "exact": 2,
+          "pair_exact_rate": 0.2,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.8
+        },
+        "metal_ion": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 8,
+          "exact": 2,
+          "pair_exact_rate": 0.2,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.8
+        },
+        "context": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 10,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        }
+      },
+      "field_ranking": [
+        [
+          "buffer",
+          -1.0
+        ],
+        [
+          "context",
+          -1.0
+        ],
+        [
+          "counter_ion",
+          -1.0
+        ],
+        [
+          "ligand_name_std",
+          -1.0
+        ],
+        [
+          "ligand_synonyms",
+          -1.0
+        ],
+        [
+          "metal_ion",
+          -1.0
+        ],
+        [
+          "sample_concentration",
+          -1.0
+        ],
+        [
+          "comments",
+          0.0
+        ],
+        [
+          "instrument",
+          0.0
+        ],
+        [
+          "ligand_name",
+          0.0
+        ],
+        [
+          "sequence",
+          0.0
+        ],
+        [
+          "value",
+          0.1
+        ],
+        [
+          "ligand_id",
+          0.9
+        ],
+        [
+          "activity1",
+          1.0
+        ],
+        [
+          "activity2",
+          1.0
+        ],
+        [
+          "method",
+          1.0
+        ],
+        [
+          "sequence_name",
+          1.0
+        ],
+        [
+          "sequence_type",
+          1.0
+        ]
+      ],
+      "missing_examples": [
+        {
+          "ligand_id": "G4L0226",
+          "ligand_name": "42",
+          "sequence_name": "Pu24; PDB ID: 2MGN",
+          "sequence": "TGAGGGTGGTGAGGGTGGGGAAGG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Molecule Dynamics (MD) Simulation",
+          "value": "Docking Score=-9.236 kcal/mol"
+        },
+        {
+          "ligand_id": "G4L0207",
+          "ligand_name": "23",
+          "sequence_name": "Pu24; PDB ID: 2MGN",
+          "sequence": "TGAGGGTGGTGAGGGTGGGGAAGG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Molecule Dynamics (MD) Simulation",
+          "value": "Docking Score=-9.146 kcal/mol"
+        },
+        {
+          "ligand_id": "G4L0204",
+          "ligand_name": "20",
+          "sequence_name": "Pu24; PDB ID: 2MGN",
+          "sequence": "TGAGGGTGGTGAGGGTGGGGAAGG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Molecule Dynamics (MD) Simulation",
+          "value": "Docking Score change=-0.275 kcal/mol"
+        },
+        {
+          "ligand_id": "G4L0218",
+          "ligand_name": "34",
+          "sequence_name": "Pu24; PDB ID: 2MGN",
+          "sequence": "TGAGGGTGGTGAGGGTGGGGAAGG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Molecule Dynamics (MD) Simulation",
+          "value": "Docking Score change=-0.467 kcal/mol"
+        },
+        {
+          "ligand_id": "G4L0242",
+          "ligand_name": "58",
+          "sequence_name": "Pu24; PDB ID: 2MGN",
+          "sequence": "TGAGGGTGGTGAGGGTGGGGAAGG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Molecule Dynamics (MD) Simulation",
+          "value": "Docking Score=-9.095 kcal/mol"
+        }
+      ],
+      "extra_examples": [
+        {
+          "ligand_id": "G4L0108",
+          "ligand_name": "Ligand 2",
+          "sequence_name": "Pu24;PDB ID: 2MGN",
+          "sequence": null,
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Molecule Dynamics (MD) Simulation",
+          "value": "Docking Score=-9.255 kcal/mol"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "gt_index": 3,
+          "pred_index": 0,
+          "cost": 2.25
+        },
+        {
+          "gt_index": 17,
+          "pred_index": 3,
+          "cost": 2.25
+        },
+        {
+          "gt_index": 0,
+          "pred_index": 8,
+          "cost": 7.0
+        },
+        {
+          "gt_index": 1,
+          "pred_index": 9,
+          "cost": 7.0
+        },
+        {
+          "gt_index": 2,
+          "pred_index": 10,
+          "cost": 7.0
+        },
+        {
+          "gt_index": 14,
+          "pred_index": 6,
+          "cost": 7.25
+        },
+        {
+          "gt_index": 41,
+          "pred_index": 1,
+          "cost": 7.25
+        },
+        {
+          "gt_index": 47,
+          "pred_index": 2,
+          "cost": 7.25
+        },
+        {
+          "gt_index": 49,
+          "pred_index": 4,
+          "cost": 7.25
+        },
+        {
+          "gt_index": 50,
+          "pred_index": 7,
+          "cost": 10.0
+        }
+      ]
+    },
+    {
+      "paper_id": "28",
+      "groundtruth_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/学校工程结果/paper_28.json",
+      "predicted_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/data/processed/28/28_extraction.json",
+      "gt_records": 11,
+      "pred_records": 11,
+      "record_detection": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.909091,
+        "recall": 0.909091,
+        "f1": 0.909091
+      },
+      "full_record_hit": {
+        "full_hit": 0,
+        "total_matched": 10,
+        "hit_rate": 0.0
+      },
+      "field_accuracy": {
+        "ligand_id": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_name": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_name_std": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "ligand_synonyms": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 10,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "sequence": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 0,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 0.0
+        },
+        "sequence_name": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 10,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "sequence_type": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "activity1": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "activity2": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "method": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 9,
+          "pair_exact_rate": 0.9,
+          "gt_cover_exact_rate": 0.9,
+          "pred_fill_rate": 1.0
+        },
+        "value": {
+          "pairs": 10,
+          "gt_nonempty": 10,
+          "pred_nonempty": 10,
+          "exact": 8,
+          "pair_exact_rate": 0.8,
+          "gt_cover_exact_rate": 0.8,
+          "pred_fill_rate": 1.0
+        },
+        "buffer": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 10,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "sample_concentration": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 10,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "instrument": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 9,
+          "exact": 1,
+          "pair_exact_rate": 0.1,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.9
+        },
+        "comments": {
+          "pairs": 10,
+          "gt_nonempty": 8,
+          "pred_nonempty": 10,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "counter_ion": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 10,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "metal_ion": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 10,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "context": {
+          "pairs": 10,
+          "gt_nonempty": 0,
+          "pred_nonempty": 10,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        }
+      },
+      "field_ranking": [
+        [
+          "buffer",
+          -1.0
+        ],
+        [
+          "context",
+          -1.0
+        ],
+        [
+          "counter_ion",
+          -1.0
+        ],
+        [
+          "instrument",
+          -1.0
+        ],
+        [
+          "ligand_name_std",
+          -1.0
+        ],
+        [
+          "ligand_synonyms",
+          -1.0
+        ],
+        [
+          "metal_ion",
+          -1.0
+        ],
+        [
+          "sample_concentration",
+          -1.0
+        ],
+        [
+          "sequence_name",
+          -1.0
+        ],
+        [
+          "comments",
+          0.0
+        ],
+        [
+          "sequence",
+          0.0
+        ],
+        [
+          "value",
+          0.8
+        ],
+        [
+          "method",
+          0.9
+        ],
+        [
+          "activity1",
+          1.0
+        ],
+        [
+          "activity2",
+          1.0
+        ],
+        [
+          "ligand_id",
+          1.0
+        ],
+        [
+          "ligand_name",
+          1.0
+        ],
+        [
+          "sequence_type",
+          1.0
+        ]
+      ],
+      "missing_examples": [
+        {
+          "ligand_id": "G4L0244",
+          "ligand_name": "Adriamycin ",
+          "sequence_name": "PDB ID: 1NP9",
+          "sequence": "TTAGGGTTTAGGGTTTAGGGTTTAGGGT",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Molecule Dynamics (MD) Simulation",
+          "value": "Binding mode: intercalation"
+        }
+      ],
+      "extra_examples": [
+        {
+          "ligand_id": "G4L0244",
+          "ligand_name": "adriamycin",
+          "sequence_name": "HTel7",
+          "sequence": null,
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Fluorescence Spectroscopy (Fl)",
+          "value": "Kb2=6.7×10^5 M^-1"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "gt_index": 0,
+          "pred_index": 8,
+          "cost": 3.75
+        },
+        {
+          "gt_index": 1,
+          "pred_index": 3,
+          "cost": 3.75
+        },
+        {
+          "gt_index": 2,
+          "pred_index": 6,
+          "cost": 3.75
+        },
+        {
+          "gt_index": 3,
+          "pred_index": 9,
+          "cost": 3.75
+        },
+        {
+          "gt_index": 4,
+          "pred_index": 4,
+          "cost": 3.75
+        },
+        {
+          "gt_index": 5,
+          "pred_index": 7,
+          "cost": 3.75
+        },
+        {
+          "gt_index": 6,
+          "pred_index": 5,
+          "cost": 3.75
+        },
+        {
+          "gt_index": 7,
+          "pred_index": 2,
+          "cost": 3.75
+        },
+        {
+          "gt_index": 8,
+          "pred_index": 10,
+          "cost": 8.75
+        },
+        {
+          "gt_index": 9,
+          "pred_index": 0,
+          "cost": 13.5
+        }
+      ]
+    },
+    {
+      "paper_id": "55",
+      "groundtruth_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/学校工程结果/paper_55.json",
+      "predicted_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/data/processed/55/55_extraction.json",
+      "gt_records": 9,
+      "pred_records": 6,
+      "record_detection": {
+        "tp": 5,
+        "fp": 1,
+        "fn": 4,
+        "precision": 0.833333,
+        "recall": 0.555556,
+        "f1": 0.666667
+      },
+      "full_record_hit": {
+        "full_hit": 0,
+        "total_matched": 5,
+        "hit_rate": 0.0
+      },
+      "field_accuracy": {
+        "ligand_id": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 5,
+          "exact": 5,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_name": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 5,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_name_std": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 5,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_synonyms": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 5,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "sequence": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 0,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 0.0
+        },
+        "sequence_name": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 5,
+          "exact": 5,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "sequence_type": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 5,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "activity1": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 5,
+          "exact": 5,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "activity2": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 5,
+          "exact": 5,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "method": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 5,
+          "exact": 5,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "value": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 5,
+          "exact": 2,
+          "pair_exact_rate": 0.4,
+          "gt_cover_exact_rate": 0.4,
+          "pred_fill_rate": 1.0
+        },
+        "buffer": {
+          "pairs": 5,
+          "gt_nonempty": 0,
+          "pred_nonempty": 5,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "sample_concentration": {
+          "pairs": 5,
+          "gt_nonempty": 0,
+          "pred_nonempty": 5,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "instrument": {
+          "pairs": 5,
+          "gt_nonempty": 0,
+          "pred_nonempty": 5,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "comments": {
+          "pairs": 5,
+          "gt_nonempty": 5,
+          "pred_nonempty": 5,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "counter_ion": {
+          "pairs": 5,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 5,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "metal_ion": {
+          "pairs": 5,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 5,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "context": {
+          "pairs": 5,
+          "gt_nonempty": 0,
+          "pred_nonempty": 5,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        }
+      },
+      "field_ranking": [
+        [
+          "buffer",
+          -1.0
+        ],
+        [
+          "context",
+          -1.0
+        ],
+        [
+          "counter_ion",
+          -1.0
+        ],
+        [
+          "instrument",
+          -1.0
+        ],
+        [
+          "metal_ion",
+          -1.0
+        ],
+        [
+          "sample_concentration",
+          -1.0
+        ],
+        [
+          "comments",
+          0.0
+        ],
+        [
+          "ligand_name",
+          0.0
+        ],
+        [
+          "ligand_name_std",
+          0.0
+        ],
+        [
+          "ligand_synonyms",
+          0.0
+        ],
+        [
+          "sequence",
+          0.0
+        ],
+        [
+          "sequence_type",
+          0.0
+        ],
+        [
+          "value",
+          0.4
+        ],
+        [
+          "activity1",
+          1.0
+        ],
+        [
+          "activity2",
+          1.0
+        ],
+        [
+          "ligand_id",
+          1.0
+        ],
+        [
+          "method",
+          1.0
+        ],
+        [
+          "sequence_name",
+          1.0
+        ]
+      ],
+      "missing_examples": [
+        {
+          "ligand_id": "G4L0140",
+          "ligand_name": "3,6,9-trisubstituted acridine derivative 3; BRACO-19; 1; (N-{9-[4-(dimethylamino) anilino]-6-(3-pyrrolidin-1-ylpropanoylamino)acridin-3-yl}-3-pyrrolidin-1ylpropanamide;N,N'-(9-((4-(dimethylamino)phenyl)amino)acridine-3,6-diyl)bis(3-(pyrrolidin-1-yl)propanamide)",
+          "sequence_name": "HGQ-NV-L",
+          "sequence": "UUUAAGGAGAACGGGAUGGUUAAGGAUGAG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Isothermal Titration Calorimetry (ITC)",
+          "value": "Ka1=3.52E6 M−1"
+        },
+        {
+          "ligand_id": "G4L0140",
+          "ligand_name": "3,6,9-trisubstituted acridine derivative 3; BRACO-19; 1; (N-{9-[4-(dimethylamino) anilino]-6-(3-pyrrolidin-1-ylpropanoylamino)acridin-3-yl}-3-pyrrolidin-1ylpropanamide;N,N'-(9-((4-(dimethylamino)phenyl)amino)acridine-3,6-diyl)bis(3-(pyrrolidin-1-yl)propanamide)",
+          "sequence_name": "HGQ-NV-L",
+          "sequence": "UUUAAGGAGAACGGGAUGGUUAAGGAUGAG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Isothermal Titration Calorimetry (ITC)",
+          "value": "Ka2=4.58E4 M−1"
+        },
+        {
+          "ligand_id": "G4L0140",
+          "ligand_name": "3,6,9-trisubstituted acridine derivative 3; BRACO-19; 1; (N-{9-[4-(dimethylamino) anilino]-6-(3-pyrrolidin-1-ylpropanoylamino)acridin-3-yl}-3-pyrrolidin-1ylpropanamide;N,N'-(9-((4-(dimethylamino)phenyl)amino)acridine-3,6-diyl)bis(3-(pyrrolidin-1-yl)propanamide)",
+          "sequence_name": "HGQ-NV-G",
+          "sequence": "ACAGUGGUAAACGGUGUUUGGAUUUGGUGGGGUCCAG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Isothermal Titration Calorimetry (ITC)",
+          "value": "Ka=2.77E6 M−1"
+        },
+        {
+          "ligand_id": "G4L0140",
+          "ligand_name": "3,6,9-trisubstituted acridine derivative 3; BRACO-19; 1; (N-{9-[4-(dimethylamino) anilino]-6-(3-pyrrolidin-1-ylpropanoylamino)acridin-3-yl}-3-pyrrolidin-1ylpropanamide;N,N'-(9-((4-(dimethylamino)phenyl)amino)acridine-3,6-diyl)bis(3-(pyrrolidin-1-yl)propanamide)",
+          "sequence_name": "HGQ-NV-G",
+          "sequence": "ACAGUGGUAAACGGUGUUUGGAUUUGGUGGGGUCCAG",
+          "activity1": "Interaction",
+          "activity2": "Binding",
+          "method": "Isothermal Titration Calorimetry (ITC)",
+          "value": "Ka2=2.73E6 M−1"
+        }
+      ],
+      "extra_examples": [
+        {
+          "ligand_id": "G4L0065",
+          "ligand_name": "TMPyP4",
+          "sequence_name": "HGQ-NV-L",
+          "sequence": null,
+          "activity1": "Interaction",
+          "activity2": "Stabilization",
+          "method": "Circular Dichroism (CD)",
+          "value": "Delta Tm2=3.9 ℃"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "gt_index": 0,
+          "pred_index": 0,
+          "cost": 2.75
+        },
+        {
+          "gt_index": 1,
+          "pred_index": 1,
+          "cost": 2.75
+        },
+        {
+          "gt_index": 6,
+          "pred_index": 5,
+          "cost": 2.75
+        },
+        {
+          "gt_index": 7,
+          "pred_index": 4,
+          "cost": 2.75
+        },
+        {
+          "gt_index": 8,
+          "pred_index": 2,
+          "cost": 7.75
+        }
+      ]
+    },
+    {
+      "paper_id": "59",
+      "groundtruth_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/学校工程结果/paper_59.json",
+      "predicted_file": "/Users/zhangziyu02/Desktop/四川大学化学学院/KnowMat/data/processed/59/59_extraction.json",
+      "gt_records": 46,
+      "pred_records": 8,
+      "record_detection": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 38,
+        "precision": 1.0,
+        "recall": 0.173913,
+        "f1": 0.296296
+      },
+      "full_record_hit": {
+        "full_hit": 0,
+        "total_matched": 8,
+        "hit_rate": 0.0
+      },
+      "field_accuracy": {
+        "ligand_id": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_name": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_name_std": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "ligand_synonyms": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "sequence": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 0,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 0.0
+        },
+        "sequence_name": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 5,
+          "pair_exact_rate": 0.625,
+          "gt_cover_exact_rate": 0.625,
+          "pred_fill_rate": 1.0
+        },
+        "sequence_type": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "activity1": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "activity2": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "method": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": 1.0,
+          "pred_fill_rate": 1.0
+        },
+        "value": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 8,
+          "exact": 2,
+          "pair_exact_rate": 0.25,
+          "gt_cover_exact_rate": 0.25,
+          "pred_fill_rate": 1.0
+        },
+        "buffer": {
+          "pairs": 8,
+          "gt_nonempty": 0,
+          "pred_nonempty": 7,
+          "exact": 1,
+          "pair_exact_rate": 0.125,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.875
+        },
+        "sample_concentration": {
+          "pairs": 8,
+          "gt_nonempty": 8,
+          "pred_nonempty": 7,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 0.875
+        },
+        "instrument": {
+          "pairs": 8,
+          "gt_nonempty": 1,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": 0.0,
+          "pred_fill_rate": 1.0
+        },
+        "comments": {
+          "pairs": 8,
+          "gt_nonempty": 0,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        },
+        "counter_ion": {
+          "pairs": 8,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "metal_ion": {
+          "pairs": 8,
+          "gt_nonempty": 0,
+          "pred_nonempty": 0,
+          "exact": 8,
+          "pair_exact_rate": 1.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 0.0
+        },
+        "context": {
+          "pairs": 8,
+          "gt_nonempty": 0,
+          "pred_nonempty": 8,
+          "exact": 0,
+          "pair_exact_rate": 0.0,
+          "gt_cover_exact_rate": null,
+          "pred_fill_rate": 1.0
+        }
+      },
+      "field_ranking": [
+        [
+          "buffer",
+          -1.0
+        ],
+        [
+          "comments",
+          -1.0
+        ],
+        [
+          "context",
+          -1.0
+        ],
+        [
+          "counter_ion",
+          -1.0
+        ],
+        [
+          "metal_ion",
+          -1.0
+        ],
+        [
+          "instrument",
+          0.0
+        ],
+        [
+          "ligand_name",
+          0.0
+        ],
+        [
+          "ligand_synonyms",
+          0.0
+        ],
+        [
+          "sample_concentration",
+          0.0
+        ],
+        [
+          "sequence",
+          0.0
+        ],
+        [
+          "value",
+          0.25
+        ],
+        [
+          "sequence_name",
+          0.625
+        ],
+        [
+          "activity1",
+          1.0
+        ],
+        [
+          "activity2",
+          1.0
+        ],
+        [
+          "ligand_id",
+          1.0
+        ],
+        [
+          "ligand_name_std",
+          1.0
+        ],
+        [
+          "method",
+          1.0
+        ],
+        [
+          "sequence_type",
+          1.0
+        ]
+      ],
+      "missing_examples": [
+        {
+          "ligand_id": "G4L0140",
+          "ligand_name": "3,6,9-trisubstituted acridine derivative 3; BRACO-19; 1; (N-{9-[4-(dimethylamino) anilino]-6-(3-pyrrolidin-1-ylpropanoylamino)acridin-3-yl}-3-pyrrolidin-1ylpropanamide;N,N'-(9-((4-(dimethylamino)phenyl)amino)acridine-3,6-diyl)bis(3-(pyrrolidin-1-yl)propanamide)",
+          "sequence_name": "ZNS5B",
+          "sequence": "GGAUGUGGCAGAGGGGGCUGG",
+          "activity1": "Interaction",
+          "activity2": "Recognition",
+          "method": "Fluorescence Spectroscopy (Fl)",
+          "value": "Showed higher binding affinity (>100 fold higher) comparison to the duplex control RNA sequence"
+        },
+        {
+          "ligand_id": "G4L0140",
+          "ligand_name": "3,6,9-trisubstituted acridine derivative 3; BRACO-19; 1; (N-{9-[4-(dimethylamino) anilino]-6-(3-pyrrolidin-1-ylpropanoylamino)acridin-3-yl}-3-pyrrolidin-1ylpropanamide;N,N'-(9-((4-(dimethylamino)phenyl)amino)acridine-3,6-diyl)bis(3-(pyrrolidin-1-yl)propanamide)",
+          "sequence_name": "ZGQ2",
+          "sequence": "GGACCGCCUGGGGGUGGGGGGAGG",
+          "activity1": "Interaction",
+          "activity2": "Recognition",
+          "method": "Fluorescence Spectroscopy (Fl)",
+          "value": "Showed higher binding affinity (>100 fold higher) comparison to the duplex control RNA sequence"
+        },
+        {
+          "ligand_id": "G4L0140",
+          "ligand_name": "3,6,9-trisubstituted acridine derivative 3; BRACO-19; 1; (N-{9-[4-(dimethylamino) anilino]-6-(3-pyrrolidin-1-ylpropanoylamino)acridin-3-yl}-3-pyrrolidin-1ylpropanamide;N,N'-(9-((4-(dimethylamino)phenyl)amino)acridine-3,6-diyl)bis(3-(pyrrolidin-1-yl)propanamide)",
+          "sequence_name": "ZNS3",
+          "sequence": "GGUGGAAGAGUGAUAGGACUCUAUGGCAAUGGGGUU",
+          "activity1": "Interaction",
+          "activity2": "Recognition",
+          "method": "Fluorescence Spectroscopy (Fl)",
+          "value": "Showed higher binding affinity (>100 fold higher) comparison to the duplex control RNA sequence"
+        },
+        {
+          "ligand_id": "G4L0140",
+          "ligand_name": "3,6,9-trisubstituted acridine derivative 3; BRACO-19; 1; (N-{9-[4-(dimethylamino) anilino]-6-(3-pyrrolidin-1-ylpropanoylamino)acridin-3-yl}-3-pyrrolidin-1ylpropanamide;N,N'-(9-((4-(dimethylamino)phenyl)amino)acridine-3,6-diyl)bis(3-(pyrrolidin-1-yl)propanamide)",
+          "sequence_name": "ZGQ4",
+          "sequence": "GGCAUGGGGGAGG",
+          "activity1": "Interaction",
+          "activity2": "Recognition",
+          "method": "Fluorescence Spectroscopy (Fl)",
+          "value": "Showed higher binding affinity (>100 fold higher) comparison to the duplex control RNA sequence"
+        },
+        {
+          "ligand_id": "G4L0140",
+          "ligand_name": "3,6,9-trisubstituted acridine derivative 3; BRACO-19; 1; (N-{9-[4-(dimethylamino) anilino]-6-(3-pyrrolidin-1-ylpropanoylamino)acridin-3-yl}-3-pyrrolidin-1ylpropanamide;N,N'-(9-((4-(dimethylamino)phenyl)amino)acridine-3,6-diyl)bis(3-(pyrrolidin-1-yl)propanamide)",
+          "sequence_name": "Z3UTR",
+          "sequence": "GGCGGCCGGUGUGGGGAA",
+          "activity1": "Interaction",
+          "activity2": "Recognition",
+          "method": "Fluorescence Spectroscopy (Fl)",
+          "value": "Showed higher binding affinity (>100 fold higher) comparison to the duplex control RNA sequence"
+        }
+      ],
+      "extra_examples": [],
+      "matched_pairs": [
+        {
+          "gt_index": 22,
+          "pred_index": 1,
+          "cost": 7.0
+        },
+        {
+          "gt_index": 23,
+          "pred_index": 2,
+          "cost": 7.0
+        },
+        {
+          "gt_index": 1,
+          "pred_index": 0,
+          "cost": 7.75
+        },
+        {
+          "gt_index": 24,
+          "pred_index": 5,
+          "cost": 8.0
+        },
+        {
+          "gt_index": 25,
+          "pred_index": 7,
+          "cost": 8.0
+        },
+        {
+          "gt_index": 27,
+          "pred_index": 3,
+          "cost": 8.0
+        },
+        {
+          "gt_index": 29,
+          "pred_index": 4,
+          "cost": 8.0
+        },
+        {
+          "gt_index": 26,
+          "pred_index": 6,
+          "cost": 12.0
+        }
+      ]
+    }
+  ]
+}

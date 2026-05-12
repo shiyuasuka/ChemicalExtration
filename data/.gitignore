@@ -1,0 +1,13 @@
+# Ignore everything in this directory
+*
+# Except this file and .gitignore in sub directories
+!.gitignore
+!raw
+!raw/*
+# Large PDFs under raw/ (do not commit; keep .md/.json etc.)
+raw/*.pdf
+raw/**/*.pdf
+!external
+!processed
+!processed/*
+!interim

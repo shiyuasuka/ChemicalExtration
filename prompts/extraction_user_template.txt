@@ -1,0 +1,17 @@
+The following is OCR-parsed text from a biochemistry / biophysics paper about
+G-quadruplex (G4) ligands.
+
+=== INPUT TEXT START ===
+{paper_text}
+=== INPUT TEXT END ===
+
+Extract only the stage-1 core records.
+
+For every `g4_bindings` item, output only:
+- `ligand_name`
+- `method`
+- `value`
+- `sequence`
+- `sequence_name`
+
+Do not output any additional fields.

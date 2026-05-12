@@ -1,0 +1,27 @@
+{
+  "ligand_name": {
+    "type": "string",
+    "description": "Ligand name as reported in the paper. Keep the reported alias string rather than inventing standardized names or IDs.",
+    "nullable": true
+  },
+  "method": {
+    "type": "string",
+    "description": "Experimental or computational method as reported in the paper. Prefer canonical method names when obvious from the source.",
+    "nullable": true
+  },
+  "value": {
+    "type": "string",
+    "description": "Raw reported endpoint value exactly as written in the paper, preserving endpoint labels, units, inequalities, and scientific notation.",
+    "nullable": true
+  },
+  "sequence": {
+    "type": "string",
+    "description": "Exact nucleotide sequence string when explicitly recoverable. If the paper gives only a sequence alias, set this field to null.",
+    "nullable": true
+  },
+  "sequence_name": {
+    "type": "string",
+    "description": "Sequence alias or context label used in the paper, such as c-MYC, hTel, or Pu24; PDB ID: 2MGN.",
+    "nullable": true
+  }
+}

@@ -1,0 +1,93 @@
+# KnowMat conda environment: all dependencies (OCR, LLM, development tools)
+# Create: conda env create -f environment.yml
+# Update: conda env update -f environment.yml --prune
+#
+# Consistent with pyproject.toml and requirements.txt
+name: KnowMat
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python==3.11
+  - pip
+
+  # Core science & data (from pyproject.toml)
+  - numpy==2.2.6
+  - scipy==1.16.0
+  - pandas==2.3.2
+  - tqdm==4.67.1
+  - click
+  - ipython
+
+  # Visualization
+  - matplotlib
+  - ipympl
+  - seaborn
+
+  # Development & documentation
+  - jupyterlab
+  - pytest
+  - pytest-cov
+  - pre-commit
+  - nbdime
+  - nbstripout
+  - sphinx
+  - recommonmark
+
+  - pip:
+      # Project itself (editable installation)
+      - -e .
+
+      # LangChain & Orchestration
+      - langchain==0.3.26
+      - langchain-community==0.3.27
+      - langchain-openai==0.3.27
+      - langgraph==0.6.10
+      - trustcall==0.0.39
+
+      # OpenAI / API
+      - openai==1.93.2
+
+      # PaddleOCR-VL (PDF parsing). Install the Paddle runtime separately:
+      # CPU: `pip install -r requirements-cpu.txt`
+      # GPU: `pip install -r requirements-gpu.txt -i ...`
+      - paddleocr[all]
+      - pymupdf==1.24.13
+
+      # OCR related transitive dependencies
+      - beautifulsoup4>=4.12
+      - lxml>=6.0
+      - cssselect>=1.4
+      - einops>=0.8
+      - openpyxl>=3.1
+      - premailer>=3.10
+
+      # Validation and Configuration
+      - pydantic==2.11.7
+      - pydantic-settings>=2.0.0
+      - python-dotenv==1.1.1
+      - colorlog==6.9.0
+      - PyYAML>=6.0
+
+      # Core utilities (from pyproject.toml dependencies)
+      - rich>=13.0
+      - pillow>=10.0
+      - pdfminer.six>=20221105
+      - markdownify>=0.13
+
+      # Composition parsing
+      - pymatgen
+
+      # Vector & Embeddings (for attribute standardization)
+      - sentence-transformers==5.0.0
+      - torch==2.8.0
+      - torchvision==0.23.0
+
+# Paddle runtime is separate from the base environment.
+# Choose exactly one runtime after `conda env create -f environment.yml`:
+#   CPU: `pip install -r requirements-cpu.txt`
+#   GPU: `pip uninstall -y paddlepaddle paddlepaddle-gpu`
+#        `pip install -r requirements-gpu.txt -i https://www.paddlepaddle.org.cn/packages/stable/cu129/`
+#        `conda install nvidia::cudnn cuda-version=12`
+# See docs/ocr-cudnn64_9-fix.md and docs/platforms.md for details.

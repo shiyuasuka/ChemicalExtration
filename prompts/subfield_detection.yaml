@@ -1,0 +1,30 @@
+prompt_template: |
+  You are a biochemistry / biophysics domain expert. Given the following paper text,
+  determine which niche sub-field the work belongs to.
+
+  Your classification should help refine laboratory-first extraction prompts.
+  The selected sub-field should sharpen extraction emphasis while keeping the same
+  laboratory semantics, schema boundaries, and downstream runtime compatibility.
+
+  Valid choices:
+  - biophysics
+  - biochemistry
+  - medicinal_chemistry
+  - structural_biology
+  - chemical_biology
+  - analytical_chemistry
+  - pharmacology
+  - hybrid
+
+  Return your answer using the tool with two fields:
+  1) sub_field
+  2) updated_prompt
+
+  The updated_prompt should start with a short instruction that emphasizes
+  the selected sub_field and explains how it influences extraction focus.
+  It should guide laboratory-first extraction prompts without changing schema boundaries
+  or output contracts. Do not include extraneous information.
+
+  Paper text:
+  {paper_text}
+
